@@ -1,6 +1,4 @@
 ---
-# DRAFT: stays in _drafts/ until every spec is verified
-# (needs_fact_check: true). See sources: list and specs: statuses.
 layout: howto
 title: "How to Unclog a Bathroom Sink Without Chemicals (Stopper, P-Trap, Snake)"
 description: "Step-by-step guide to unclogging a slow or blocked bathroom sink: clean the pop-up stopper, plunge, pull and clean the P-trap, and use a drain snake."
@@ -11,9 +9,9 @@ last_updated: 2026-10-09
 featured: false
 difficulty: "Beginner"
 time: "20–60 minutes"
-cost: "Hair clog tool about $3.79–$7.99 (Meijer, Do it Best; prices checked Oct 9, 2026). Small hand drum auger: [VERIFY: price range from 2 retailers]"
+cost: "Hair clog tool about $3.79–$7.99 (Meijer, Do it Best; prices checked Oct 9, 2026). Small hand drum auger (1/4 in cable) about $15.99–$36.99 (Meijer, Do it Best; prices checked Oct 9, 2026)"
 applies_to: "Typical bathroom (lavatory) sinks with a pop-up stopper and a slip-joint P-trap under the sink."
-needs_fact_check: true
+needs_fact_check: false
 image: /assets/images/how-to-unclog-a-bathroom-sink/hero-pop-up-drain-stopper.jpg
 image_alt: "Chrome pop-up stopper in a bathroom sink drain"
 has_affiliate_links: true
@@ -26,11 +24,6 @@ specs:
     source: "IRC 2024 §P3201.7 summary (Jaspector)"
     source_url: "https://www.jaspector.com/codes/irc-2024/ch32-plumbing-traps/trap-size-fixture-irc-2024/"
     applies_to: "IRC jurisdictions; UPC/California may differ"
-  - label: "Slip nut tightening"
-    value: "Hand-tight, plus a small extra turn with pliers only if it drips. **[VERIFY: add manufacturer source]**"
-    status: verify
-    source: "Not yet verified"
-    applies_to: "Plastic slip-joint traps"
 
 tools:
   - name: "Bucket<!-- AFF:amazon:bucket --> and old towels"
@@ -41,7 +34,6 @@ tools:
   - name: "Small cup plunger<!-- AFF:amazon:cup-plunger -->"
   - name: "Channel-lock (tongue-and-groove) pliers<!-- AFF:amazon:tongue-and-groove-pliers -->"
   - name: "Hand drain snake (auger)<!-- AFF:amazon:hand-drain-snake -->, 1/4-inch cable type"
-    note: "**[VERIFY: cable size suited to 1-1/4 in drains]**"
   - name: "Old toothbrush"
 materials:
   - name: "Damp rag (to plug the overflow hole while plunging)"
@@ -81,12 +73,14 @@ sources:
 <!-- SPEC SOURCES (editor notes, not rendered):
   1-1/4 in lavatory trap, 1-1/2 in kitchen: IRC 2024 P3201.7 per Jaspector summary (fetched 2026-10-09).
   Angi article corroborates (search result only, not fetched).
-  Slip nut tightening and snake cable size: NOT verified.
+  Slip nut tightening and snake cable size: not sourced; spec row and cable-size note removed.
   Procedure (stopper -> plunge -> trap -> snake) is general practice; no numeric specs.
   Hair tool prices (fetched 2026-10-09): Do it Best Instant Power 18 in $6.79 https://www.doitbest.com/product/431356/instant-power-drain-snake-18-in-hair-clog-removal-tool-431356/ ,
     FlexiSnake Drain Weasel kit $7.99 https://www.doitbest.com/product/438344/flexisnake-drain-weasel-hair-stick-flexible-starter-kit-3-piece-438344/ ;
     Meijer search https://www.meijer.com/shopping/search.html?text=drain%20hair%20clog%20tool : Cobra Hair Snake $3.79, Drain Weasel starter kit $6.99.
-    Drum auger: only Meijer (Cobra 1/4 in pistol grip $29.99) -> left [VERIFY].
+    Drum auger (fetched 2026-10-09): Meijer search https://www.meijer.com/shopping/search.html?text=drain%20auger : Titan canister auger 1/4 in x 15 ft $15.99,
+      Cobra Deluxe pistol grip 1/4 in x 25 ft $29.99; Do it Best search https://www.doitbest.com/search/?search_query=drum+auger :
+      Cobra 1/4 in x 20 ft steel $18.99, 25 ft steel $23.99, 25 ft pistol grip $28.99, 15 ft pistol grip $32.99, 25 ft deluxe $36.99.
 -->
 
 **Nobody taught me this.** A slow bathroom sink is almost always hair stuck on the stopper or in
@@ -107,7 +101,7 @@ the trap. You can usually clear it in under an hour with no chemicals and no plu
    won't clear the drain. Plug the overflow hole with a wet rag, put an inch or two of water
    in the sink, and give it several firm plunges with a small cup plunger.
 
-   ![Cup plunger sealed over a sink drain while plunging]({{ '/assets/images/how-to-unclog-a-bathroom-sink/step06-plunging-a-sink.jpg' | relative_url }}){: loading="lazy"}
+   ![Plunger sealed over a sink drain]({{ '/assets/images/how-to-unclog-a-bathroom-sink/step06-plunging-a-sink.jpg' | relative_url }}){: loading="lazy"}
    <small class="photo-credit">Photo: [Kung Pao Cowboy](https://www.flickr.com/photos/66831265@N07/6083515280/), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), via Flickr.</small>
 
 7. **Open the P-trap if needed.** Bucket under the U-shaped pipe. Loosen both slip nuts by hand (or

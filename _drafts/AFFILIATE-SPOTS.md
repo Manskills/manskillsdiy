@@ -1,4 +1,6 @@
-# Affiliate spots: hidden AFF markers in the drafts
+# Affiliate spots: hidden AFF markers in the guides
+
+Update 2026-10-09: 7 of these guides moved to `_posts/2026-10-09-<slug>.md` (Corolla oil change, check/add oil, wipers, bathroom sink, stud/TV, mower blade, outdoor faucet). The other 4 are still in `_drafts/`. Markers are unchanged.
 
 Every product spot in the 11 guides carries a hidden HTML comment right after the product name:
 `<!-- AFF:program:product-slug -->`. Nothing renders on the page and no product name is a link yet.

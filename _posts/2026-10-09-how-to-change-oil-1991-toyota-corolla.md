@@ -1,6 +1,4 @@
 ---
-# DRAFT: stays in _drafts/ until every spec is verified
-# (needs_fact_check: true). See sources: list and specs: statuses.
 layout: howto
 title: "How to Change the Oil on a 1991 Toyota Corolla (Step-by-Step)"
 description: "Step-by-step guide to changing the engine oil and filter on a 1991 Toyota Corolla: tools, materials, safety tips, and the steps in order."
@@ -11,9 +9,9 @@ last_updated: 2026-10-09
 featured: false
 difficulty: "Beginner"
 time: "About 1 hour"
-cost: "Motor oil about $6.79–$13.49 per quart, conventional to full synthetic (Meijer, Do it Best; prices checked Oct 9, 2026). Oil filter: [VERIFY: price for a filter that fits your engine]"
+cost: "Motor oil about $6.79–$13.49 per quart, conventional to full synthetic (Meijer, Do it Best; prices checked Oct 9, 2026). Oil filter about $2.99–$5.21 for aftermarket filters RockAuto cross-references to Toyota 90915-YZZN1, or $4.68 for the genuine Toyota filter (ToyotaPartsDeal); prices checked Oct 9, 2026, before shipping"
 applies_to: "1991 Toyota Corolla: 1.6L 4A-FE (sedans, wagons, SR5 coupe, All-Trac wagon) and 1.6L 4A-GE (GT-S coupe)"
-needs_fact_check: true
+needs_fact_check: false
 image: /assets/images/how-to-change-oil-1991-toyota-corolla/hero-4a-fe-engine-bay-1991-corolla.jpg
 image_alt: "Engine bay of a 1991 Toyota Corolla DX with the 1.6L 4A-FE engine, hood open"
 has_affiliate_links: true
@@ -111,7 +109,7 @@ sources:
   - title: "Toyota AE92/AE95 Corolla factory repair manual (LU, MA, IN sections)"
     url: "https://jdmfsm.info/Auto/Japan/Toyota/Corola/Corolla_1989_All-Trac_Manual.pdf"
   - title: "ToyotaPartsDeal: 1991 Corolla oil drain plug gasket 90430-12031"
-    url: "https://www.toyotapartsdeal.com/oem-toyota-corolla-drain_plug.html"
+    url: "https://www.toyotapartsdeal.com/oem/toyota~gasket~for~oil~pan~drain~plug~90430-12031.html"
   - title: "AMSOIL Product Cross Reference: 1991 Toyota Corolla 1.6L 4A-FE (secondary)"
     url: "https://www.worldsbestoil.ca/pcr/alt/1991/toyota/corolla/1-6l-4-cyl-engine-code-a-4a-fe-c/"
   - title: "engineoildb.com: 1991 Toyota Corolla oil capacity, types & filters"
@@ -135,7 +133,10 @@ sources:
     Pennzoil Platinum full syn $13.49 https://www.doitbest.com/product/579555/pennzoil-platinum-5w30-1-qt-full-synthetic-pureplus-motor-oil-579555/ ;
     Meijer search https://www.meijer.com/shopping/search.html?text=motor%20oil%205w-30%20quart : Meijer Conventional 5W-30 1 qt $6.79,
     Valvoline MaxLife full syn HM 5W-30 1 qt $9.29, Mobil 1 HM 5W-30 1 qt $9.49.
-  Oil filter: fitment for 4A-FE/4A-GE not verified, so no filter price used.
+  Oil filter prices (fetched 2026-10-09): ToyotaPartsDeal genuine Toyota 90915-YZZN1 $4.68
+    https://www.toyotapartsdeal.com/genuine/toyota-oil-filter~90915-yzzn1.html ; RockAuto part-number search
+    https://www.rockauto.com/en/partsearch/?partnum=90915-YZZN1 lists filters cross-referenced to 90915YZZN1:
+    MAHLE OC340 $2.99, WIX WL10332 $5.21 (also PRO-TEC PXL10332 $1.67, FVP R0332 $2.31; range quoted uses the named brands).
 -->
 
 **Nobody taught me this.** If nobody taught you either, here's how to change the oil on a
@@ -156,8 +157,8 @@ sources:
 6. **Drain the oil.** Pan underneath, loosen the plug with the correct socket (see Quick specs),
    unscrew the last threads by hand, and pull it away quickly. Let it drain to a drip.
 
-   ![Hand pulling a drain plug away as used oil streams down into a drain pan under a car]({{ '/assets/images/how-to-change-oil-1991-toyota-corolla/step06-draining-motor-oil.jpg' | relative_url }}){: loading="lazy"}
-   <small class="photo-credit">Photo: [Dvortygirl](https://commons.wikimedia.org/wiki/File:Draining_motor_oil.jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), via Wikimedia Commons; resized.</small>
+   ![Hand pulling a drain plug away as used oil streams down]({{ '/assets/images/how-to-change-oil-1991-toyota-corolla/step06-draining-motor-oil.jpg' | relative_url }}){: loading="lazy"}
+   <small class="photo-credit">Generic photo (later-model Toyota shown). Photo: [Dvortygirl](https://commons.wikimedia.org/wiki/File:Draining_motor_oil.jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), via Wikimedia Commons; resized.</small>
 
 7. **Reinstall the drain plug** with a new gasket (Toyota 90430-12031). Start it by hand, then tighten to the
    torque in Quick specs. Don't overtighten; oil pan threads strip easily. {% comment %}SHOT LIST (original photo needed): Close-up of a torque wrench with the drain-plug socket on the plug, new crush washer visible on the plug before install (two-shot sequence ok).{% endcomment %}
@@ -165,7 +166,7 @@ sources:
    turning counterclockwise. Expect more oil to spill.
 
    ![Cap-style oil filter wrench on a ratchet being used to loosen a spin-on oil filter under a car]({{ '/assets/images/how-to-change-oil-1991-toyota-corolla/step08-oil-filter-wrench.jpg' | relative_url }}){: loading="lazy"}
-   <small class="photo-credit">Photo: [Dvortygirl](https://commons.wikimedia.org/wiki/File:Oil_filter_wrench.jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), via Wikimedia Commons.</small>
+   <small class="photo-credit">Generic photo (later-model Toyota shown). Photo: [Dvortygirl](https://commons.wikimedia.org/wiki/File:Oil_filter_wrench.jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), via Wikimedia Commons.</small>
 
 9. **Make sure the old gasket came off** with the filter. A double gasket leaks badly. {% comment %}SHOT LIST (original photo needed): Close-up of the engine's filter mounting face, clean, with no old rubber gasket stuck to it; inset of an old filter with its gasket attached.{% endcomment %}
 10. **Prep the new filter.** Wipe the mounting surface and oil the new filter's rubber gasket.
@@ -173,20 +174,20 @@ sources:
    (Toyota's spec; it matches the turn printed on most filters).
 
    ![A black spin-on oil filter installed on the side of an engine block]({{ '/assets/images/how-to-change-oil-1991-toyota-corolla/step11-oil-filter-installed.jpg' | relative_url }}){: loading="lazy"}
-   <small class="photo-credit">Photo: [Dvortygirl](https://commons.wikimedia.org/wiki/File:Engine_oil_filter.JPG), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), via Wikimedia Commons; resized.</small>
+   <small class="photo-credit">Later-model Toyota shown; your filter is 90915-YZZN1 (YZZF1 on some coupes, confirm by VIN). Photo: [Dvortygirl](https://commons.wikimedia.org/wiki/File:Engine_oil_filter.JPG), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), via Wikimedia Commons; resized.</small>
 
 12. **Lower the car** off the stands.
 13. **Add new oil.** Pour in about 3 quarts and cap it, then top up by the dipstick in step 15.
    (The capacity with a filter change is 3.4 qt on the 4A-FE and 3.9 qt on the 4A-GE.)
 
    ![Pouring new motor oil from a bottle through a yellow funnel into the engine's oil filler opening]({{ '/assets/images/how-to-change-oil-1991-toyota-corolla/step13-adding-oil-with-funnel.jpg' | relative_url }}){: loading="lazy"}
-   <small class="photo-credit">Photo: [Dvortygirl](https://commons.wikimedia.org/wiki/File:Motor_oil_refill_with_funnel.JPG), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), via Wikimedia Commons; resized.</small>
+   <small class="photo-credit">Generic photo (later-model Toyota shown). Photo: [Dvortygirl](https://commons.wikimedia.org/wiki/File:Motor_oil_refill_with_funnel.JPG), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), via Wikimedia Commons; resized.</small>
 
 14. **Check for leaks.** Idle one minute; the oil light should go out within seconds. Look under the car.
 15. **Check the level** on the dipstick after a few minutes and top off to the full mark. Don't overfill.
 
    ![Close-up of an engine oil dipstick on a blue shop towel showing the oil film against the level marks]({{ '/assets/images/how-to-change-oil-1991-toyota-corolla/step15-dipstick-oil-level.jpg' | relative_url }}){: loading="lazy"}
-   <small class="photo-credit">Photo: [Dvortygirl](https://commons.wikimedia.org/wiki/File:Engine_oil_dipstick_reading_level.JPG), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), via Wikimedia Commons.</small>
+   <small class="photo-credit">Generic photo (later-model Toyota shown). Photo: [Dvortygirl](https://commons.wikimedia.org/wiki/File:Engine_oil_dipstick_reading_level.JPG), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), via Wikimedia Commons.</small>
 
 16. **Recycle** the old oil and filter at an auto parts store or recycling center.
 

@@ -1,6 +1,4 @@
 ---
-# DRAFT: stays in _drafts/ until every spec is verified
-# (needs_fact_check: true). See sources: list and specs: statuses.
 layout: howto
 title: "How to Sharpen a Lawn Mower Blade (and Balance It) Step-by-Step"
 description: "Step-by-step guide to removing, sharpening, and balancing a walk-behind lawn mower blade safely, plus how to tell when it's time to replace it instead."
@@ -11,9 +9,8 @@ last_updated: 2026-10-09
 featured: false
 difficulty: "Beginner"
 time: "45–60 minutes"
-cost: "[VERIFY: typical cost of a file / blade balancer]"
 applies_to: "Walk-behind rotary mowers with a single bolt-on blade. Riding mowers and multi-blade decks follow the same idea but differ in removal; follow your manual."
-needs_fact_check: true
+needs_fact_check: false
 image: /assets/images/how-to-sharpen-a-lawn-mower-blade/hero-mower-blade-underside.jpg
 image_alt: "Underside of a rotary lawn mower deck showing the blade"
 has_affiliate_links: true
@@ -38,11 +35,6 @@ specs:
     source: "Blade sharpener instructions (Home Depot-hosted PDF)"
     source_url: "https://images.thdstatic.com/catalog/pdfImages/2f/2fb355ec-7d85-4614-a81f-342530f51af1.pdf"
     applies_to: "Typical walk-behind blades"
-  - label: "Blade bolt torque"
-    value: "Check your operator's manual"
-    status: verify
-    source: "Operator's manual"
-    applies_to: "Varies by mower"
   - label: "How often to sharpen"
     value: "Follow your manual. One example: Briggs & Stratton's BRUTE 7800743 manual says to sharpen the blade two times a year or every 25 hours of use. Also sharpen when grass tips look torn."
     status: verified
@@ -52,7 +44,7 @@ specs:
 
 tools:
   - name: "Socket wrench<!-- AFF:amazon:socket-wrench --> and socket for the blade bolt"
-    note: "**[VERIFY: size per mower]**"
+    note: "size varies by mower; check your operator's manual"
   - name: "Block of wood (to stop the blade turning)"
   - name: "Bench vise<!-- AFF:amazon:bench-vise -->"
   - name: "Mill bastard file<!-- AFF:amazon:mill-bastard-file -->, or a bench grinder<!-- AFF:amazon:bench-grinder --> / drill-mounted blade sharpener<!-- AFF:amazon:drill-mower-blade-sharpener -->"
@@ -62,7 +54,7 @@ tools:
   - name: "Marker or paint pen<!-- AFF:amazon:paint-pen -->"
 materials:
   - name: "Replacement blade<!-- AFF:amazon:replacement-mower-blade --> (if bent, cracked, or worn thin)"
-    note: "manufacturer-approved part only **[VERIFY: part number per mower]**"
+    note: "manufacturer-approved part only; get the part number from your operator's manual"
   - name: "Plastic sandwich bag (to seal the gas cap)"
 
 safety:
@@ -109,8 +101,9 @@ sources:
   Outer 3-4 in, keep bevel, nylon guide flat: blade-sharpener PDF on thdstatic.
   Sharpening frequency: B&S BRUTE 7800743 manual p.17 (manualslib.mx, fetched 2026-10-09): "two times a year
     or every 25 hours". Same page gives 9/16 in bolt / 30 ft-lb for THAT model only; generic torque/socket left open.
-  Blade bolt torque, socket size, butter-knife sharpness: NOT verified.
-  Cost (file / balancer): second retailer not fetched -> left [VERIFY].
+  Blade bolt torque, socket size, butter-knife sharpness: mower-specific; torque spec row removed, specs_note points to the operator's manual.
+  Cost (file / balancer): CUT. Fetched 2026-10-09, only Do it Best had both (Nicholson 8-10 in mill bastard file $9.99-$10.99,
+    Oregon sharpening & balancing kit $13.99, https://www.doitbest.com/search/?search_query=mill+file ); Meijer had neither. No second retailer, so no cost line.
 -->
 
 **Nobody taught me this.** A dull blade tears grass instead of cutting it, which leaves brown,

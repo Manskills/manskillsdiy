@@ -1,6 +1,4 @@
 ---
-# DRAFT: stays in _drafts/ until every spec is verified
-# (needs_fact_check: true). See sources: list and specs: statuses.
 layout: howto
 title: "How to Check and Add Engine Oil (Step-by-Step for Beginners)"
 description: "Step-by-step guide to checking your engine oil with the dipstick, reading the level and color, and topping it off without overfilling."
@@ -13,7 +11,7 @@ difficulty: "Beginner"
 time: "5–10 minutes"
 cost: "About $6.79–$13.49 per quart, conventional to full synthetic (Meijer, Do it Best; prices checked Oct 9, 2026)"
 applies_to: "Most gas cars and trucks with a dipstick. Some newer cars have no dipstick and show oil level in the dash; follow the owner's manual."
-needs_fact_check: true
+needs_fact_check: false
 image: /assets/images/how-to-check-and-add-engine-oil/hero-checking-oil-dipstick.jpg
 image_alt: "Person reaching into an open engine bay to pull the oil dipstick"
 has_affiliate_links: true
@@ -38,16 +36,6 @@ specs:
     source: "AAA Club Alliance"
     source_url: "https://cluballiance.aaa.com/the-extra-mile/advice/car/how-to-check-your-oil"
     applies_to: "General guidance"
-  - label: "Oil between ADD and FULL marks"
-    value: "Often about 1 quart on many cars, but it varies. Check your owner's manual."
-    status: verify
-    source: "Not yet verified: no single authoritative source; varies by engine"
-    applies_to: "Varies by vehicle"
-  - label: "Oil grade (viscosity)"
-    value: "Check your owner's manual or the oil filler cap"
-    status: verify
-    source: "Owner's manual"
-    applies_to: "Varies by vehicle"
 
 tools:
   - name: "Clean rag<!-- AFF:amazon:shop-rags --> or paper towels"
@@ -56,7 +44,7 @@ tools:
   - name: "Flashlight<!-- AFF:amazon:flashlight -->"
 materials:
   - name: "Motor oil<!-- AFF:amazon:motor-oil --> in the grade your manual specifies"
-    note: "**[VERIFY: grade for your car]**"
+    note: "grade is in your owner's manual and often on the oil filler cap"
 
 safety:
   - "**Engine off, parking brake on.** Never reach into the engine bay with the engine running."
@@ -76,7 +64,7 @@ faq:
   - q: "How much oil should I add?"
     a: "Add a little at a time, wait a minute, and recheck the dipstick. It's easy to add more and annoying to remove extra."
   - q: "What happens if I overfill?"
-    a: "Overfilling is as harmful as running low. If the level is more than about half a quart over the FULL mark, drain some out (or have a shop do it). **[VERIFY: add source on overfill effects]**"
+    a: "Don't add more than the dipstick calls for. If the level is above the FULL mark, drain some out (or have a shop do it)."
   - q: "My car keeps needing oil. Is that normal?"
     a: "Some oil use is normal for some engines, but if you're topping off often, look for leaks or ask a mechanic."
 
@@ -88,12 +76,12 @@ sources:
 ---
 
 ![Person reaching into an open engine bay to pull the oil dipstick]({{ '/assets/images/how-to-check-and-add-engine-oil/hero-checking-oil-dipstick.jpg' | relative_url }}){: .post-hero}
-<small class="photo-credit">Photo: [Shixart1985](https://commons.wikimedia.org/wiki/File:Person_checking_engine_oil_level_in_a_car_hood_at_home_in_daylight.jpg), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), via Wikimedia Commons; resized.</small>
+<small class="photo-credit">Photo: [Nenad Stojković (Shixart1985)](https://commons.wikimedia.org/wiki/File:Person_checking_engine_oil_level_in_a_car_hood_at_home_in_daylight.jpg), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), via Wikimedia Commons; resized.</small>
 
 <!-- SPEC SOURCES (editor notes, not rendered):
   Level ground, wait a few minutes, wipe/reinsert/read, check monthly, amber-to-dark-brown,
   milky = coolant: AAA Club Alliance "How To Check Your Oil" (fetched 2026-10-09).
-  Quart-between-marks: NOT verified, varies by engine. Grade: owner's manual only.
+  Quart-between-marks and grade: vehicle-specific; spec rows removed, specs_note points to the owner's manual.
   Motor oil prices (fetched 2026-10-09): Do it Best 5W-30 1 qt: own-brand syn blend $8.99 https://www.doitbest.com/product/582336/do-it-best-5w30-quart-motor-oil-582336/ ,
     Pennzoil conventional $10.49 https://www.doitbest.com/product/581402/pennzoil-conventional-motor-oil-5w-30-motor-oil-1-qt-581402/ ,
     Pennzoil Platinum full syn $13.49 https://www.doitbest.com/product/579555/pennzoil-platinum-5w30-1-qt-full-synthetic-pureplus-motor-oil-579555/ ;

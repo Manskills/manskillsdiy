@@ -1,6 +1,4 @@
 ---
-# DRAFT: stays in _drafts/ until every spec is verified
-# (needs_fact_check: true). See sources: list and specs: statuses.
 layout: howto
 title: "How to Winterize an Outdoor Faucet (Hose Bib) So Pipes Don't Burst"
 description: "Step-by-step guide to winterizing an outdoor hose bib: shut off the indoor valve, drain the line, and protect standard and frost-free spigots from freezing."
@@ -11,9 +9,9 @@ last_updated: 2026-10-09
 featured: false
 difficulty: "Beginner"
 time: "15–30 minutes per faucet"
-cost: "[VERIFY: typical cost of an insulated faucet cover]"
+cost: "Insulated faucet cover about $2.99–$5.79 (Meijer, Do it Best; prices checked Oct 9, 2026)"
 applies_to: "Standard hose bibs with an indoor shutoff valve, and frost-free (freezeless) wall hydrants. Sprinkler and pool lines are separate jobs."
-needs_fact_check: true
+needs_fact_check: false
 image: /assets/images/how-to-winterize-an-outdoor-faucet/hero-outdoor-faucet-in-snow.jpg
 image_alt: "Outdoor water faucet in a snowy yard next to a bucket of ice"
 has_affiliate_links: true
@@ -38,11 +36,6 @@ specs:
     source: "Prima Plumbing; Boshart"
     source_url: "https://primaplumbingnw.com/2022/09/winterizing-your-outdoor-fixtures/"
     applies_to: "Frost-free / freezeless wall hydrants"
-  - label: "Temperature to act by"
-    value: "Before the first hard freeze. **[VERIFY: no single authoritative temperature threshold sourced]**"
-    status: verify
-    source: "Not yet verified"
-    applies_to: "General"
 
 tools:
   - name: "Bucket<!-- AFF:amazon:bucket -->"
@@ -73,7 +66,7 @@ faq:
   - q: "Should I leave the outside faucet open all winter?"
     a: "The Red Cross says to keep it open so any remaining water can expand without breaking the pipe. Boshart's guidance closes it again after the line is fully drained from the bleeder; follow whichever fits your setup."
   - q: "How do I know if my faucet is frost-free?"
-    a: "Frost-free hydrants usually have a long body that goes through the wall, and there's often no separate indoor shutoff. **[VERIFY: identification tips]**"
+    a: "Frost-free hydrants usually have a long body that goes through the wall, and there's often no separate indoor shutoff."
 
 sources:
   - title: "American Red Cross: Preventing & Thawing Frozen Pipes"
@@ -85,7 +78,7 @@ sources:
 ---
 
 ![Outdoor water faucet in a snowy yard next to a bucket of ice]({{ '/assets/images/how-to-winterize-an-outdoor-faucet/hero-outdoor-faucet-in-snow.jpg' | relative_url }}){: .post-hero}
-<small class="photo-credit">Photo: [Shixart1985](https://commons.wikimedia.org/wiki/File:Water_faucet_next_to_a_bucket_in_a_snowy_yard_during_winter.jpg), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), via Wikimedia Commons; resized.</small>
+<small class="photo-credit">Photo: [Nenad Stojković (Shixart1985)](https://commons.wikimedia.org/wiki/File:Water_faucet_next_to_a_bucket_in_a_snowy_yard_during_winter.jpg), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), via Wikimedia Commons; resized.</small>
 
 <!-- SPEC SOURCES (editor notes, not rendered):
   Remove/drain hoses, close inside valve, open outside bib, keep open, no antifreeze: Red Cross frozen
@@ -93,10 +86,11 @@ sources:
   page directly on 2026-10-09 and confirmed the hose-bib steps match word-for-word.
   Bleeder cap, air lock, bucket, frost-free hydrant + vacuum breaker notes: Boshart support article.
   Frost-free drain-by-removing-hose, isolation valve w/ drain-down: Prima Plumbing.
-  Temperature threshold: NOT verified (a widely quoted "20F" figure was NOT confirmed on a primary source; omitted).
+  Temperature threshold: not sourced (a widely quoted "20F" figure was not confirmed on a primary source); spec row removed, specs_note covers timing.
   Open-vs-closed outside faucet after draining: Red Cross vs Boshart differ; both presented.
   Faucet cover: only Do it Best fetchable ($4.99 Frost King foam https://www.doitbest.com/product/462217/ ; $5.79 Frost King sock https://www.doitbest.com/product/444469/ ;
-    $5.79 Frost King plastic https://www.doitbest.com/product/401734/ ). No second retailer -> cost left [VERIFY].
+    $5.79 Frost King plastic https://www.doitbest.com/product/401734/ ); Meijer search (fetched 2026-10-09)
+    https://www.meijer.com/shopping/search.html?text=outdoor%20faucet%20cover : Duck Brand hard faucet cover $2.99, Duck Brand flexible faucet cover $5.29.
 -->
 
 **Nobody taught me this.** Water left in an outdoor faucet line freezes, expands, and splits the

@@ -1,6 +1,4 @@
 ---
-# DRAFT: stays in _drafts/ until every spec is verified
-# (needs_fact_check: true). See sources: list and specs: statuses.
 layout: howto
 title: "How to Find a Stud and Hang a Heavy TV or Picture Safely"
 description: "Step-by-step guide to finding wall studs with a stud finder (or without one) and hanging a heavy mirror, picture, or TV mount so it actually stays on the wall."
@@ -11,9 +9,9 @@ last_updated: 2026-10-09
 featured: false
 difficulty: "Beginner"
 time: "30–90 minutes"
-cost: "Stud finder about $9.35–$44.99 (Do it Best, Newegg; prices checked Oct 9, 2026). TV mount: [VERIFY: price range from 2 retailers]"
+cost: "Stud finder about $9.35–$44.99 (Do it Best, Newegg; prices checked Oct 9, 2026). TV wall mount about $19.99–$119.99, fixed mounts cheapest and full-motion most expensive (Meijer, Do it Best; prices checked Oct 9, 2026)"
 applies_to: "Wood-stud drywall walls. Plaster, metal studs, brick, and concrete need different fasteners."
-needs_fact_check: true
+needs_fact_check: false
 image: /assets/images/how-to-find-a-stud-and-hang-a-heavy-tv-or-picture/hero-wall-mounted-flat-tv.jpg
 image_alt: "Flat-panel TV mounted on a wall"
 has_affiliate_links: true
@@ -38,16 +36,6 @@ specs:
     source: "HGTV"
     source_url: "https://www.hgtv.com/how-to/home-improvement/how-to-find-studs-in-a-wall"
     applies_to: "Drywall over wood studs"
-  - label: "TV mount lag bolt size and stud penetration"
-    value: "Use the bolts and pilot-hole size in your mount's instructions"
-    status: verify
-    source: "Mount manufacturer's instructions"
-    applies_to: "Varies by mount"
-  - label: "Drywall anchor weight rating"
-    value: "Printed on the anchor package. Not for TVs. **[VERIFY]**"
-    status: verify
-    source: "Anchor manufacturer"
-    applies_to: "Varies by product"
 
 tools:
   - name: "Stud finder<!-- AFF:amazon:stud-finder -->"
@@ -103,14 +91,17 @@ sources:
   Family Handyman "How to Use A Stud Finder" (Joe Cruz, updated 2024-10-08): fetched 2026-10-09.
   Supports painter's tape at the spot, marking from both directions, center between marks.
   Note: some electronic finders detect the stud edge, others the center; check yours.
-  Lag bolt size/penetration and anchor ratings: NOT verified, product-specific.
+  Lag bolt size/penetration and anchor ratings: product-specific; spec rows removed, specs_note points to the mount and fastener ratings.
   CPSC Anchor It! https://www.anchorit.gov/ fetched 2026-10-09.
   Stud finder prices (2026-10-09): Do it Best Kreg magnetic $29.99
     https://www.doitbest.com/product/338152/kreg-magnetic-stud-finder-with-laser-mark-338152/ ,
     Zircon i65 $44.99 https://www.doitbest.com/product/301221/zircon-i65-onestep-stud-finder-301221/ ;
     Newegg search https://www.newegg.com/p/pl?d=stud+finder : Johnson Level 160 $9.35, NOYAFA 3-in-1 $21.99
-    (Newegg listings include marketplace sellers). TV mount prices: not fetched from 2 retailers.
-  Wire routing near outlets is general practice; [VERIFY] with an electrical source if desired.
+    (Newegg listings include marketplace sellers).
+  TV mount prices (fetched 2026-10-09): Meijer search https://www.meijer.com/shopping/search.html?text=tv%20wall%20mount :
+    RCA fixed 13-37 in $19.99, RCA flat 37-80 in $29.99, RCA tilt $39.99-$44.99, RCA full motion $39.99-$59.99, Sanus $49.99-$119.99;
+    Do it Best search https://www.doitbest.com/search/?search_query=tv+wall+mount : Blue Jet fixed $21.49, tilt $26.99-$37.99, articulating $62.99.
+  Wire routing near outlets is general practice (not tied to a single source).
 -->
 
 **Nobody taught me this.** A heavy mirror or TV hung on plain drywall will eventually come down.
@@ -141,7 +132,7 @@ The fix is finding the studs, the wood framing behind the wall, and fastening in
    the package instructions.
 3. **Level it** and step back before you call it done.
 
-   ![A level set on a cabinet being leveled during installation]({{ '/assets/images/how-to-find-a-stud-and-hang-a-heavy-tv-or-picture/picture-step03-using-a-level.jpg' | relative_url }}){: loading="lazy"}
+   ![A level on top of a cabinet being installed. Use it the same way on the top edge of a frame]({{ '/assets/images/how-to-find-a-stud-and-hang-a-heavy-tv-or-picture/picture-step03-using-a-level.jpg' | relative_url }}){: loading="lazy"}
    <small class="photo-credit">Photo: [Tomwsulcer](https://commons.wikimedia.org/wiki/File:Kitchen_renovation_9a_installing_cabinet_to_hold_microwave_using_level_and_boards.JPG), [CC0](https://creativecommons.org/publicdomain/zero/1.0/), via Wikimedia Commons.</small>
 
 ### Mounting a TV

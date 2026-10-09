@@ -1,6 +1,4 @@
 ---
-# DRAFT: stays in _drafts/ until every spec is verified
-# (needs_fact_check: true). See sources: list and specs: statuses.
 layout: howto
 title: "How to Replace Windshield Wiper Blades (Hook-Arm Step-by-Step)"
 description: "Step-by-step guide to finding the right wiper blade size and replacing windshield wiper blades yourself in about 10 minutes, without cracking the windshield."
@@ -13,18 +11,13 @@ difficulty: "Beginner"
 time: "10–15 minutes"
 cost: "About $10.99–$26.99 per blade (Meijer, Do it Best; prices checked Oct 9, 2026); buy one per arm"
 applies_to: "Most cars with the common J-hook wiper arm. Pin, side-pin, and bayonet arms use a different release; follow the blade's instructions."
-needs_fact_check: true
+needs_fact_check: false
 image: /assets/images/how-to-replace-windshield-wiper-blades/hero-wiper-arm-raised.jpg
 image_alt: "Car windshield wiper arm raised upright off the glass"
 has_affiliate_links: true
 
 specs_note: "Driver and passenger blades are often different lengths. Get the sizes from the owner's manual, the parts-store lookup, or by measuring the old blades."
 specs:
-  - label: "Blade length (driver / passenger / rear)"
-    value: "Check your owner's manual, a parts-store lookup, or measure the old blades"
-    status: verify
-    source: "Owner's manual / parts lookup"
-    applies_to: "Varies by vehicle"
   - label: "Replacement interval"
     value: "Plan on about every six months (Consumer Reports testing); inspect monthly and replace sooner if they streak, smear, chatter, or miss spots"
     status: verified
@@ -45,7 +38,7 @@ tools:
     note: "to pad the windshield under the bare arm"
 materials:
   - name: "Wiper blades<!-- AFF:amazon:wiper-blades -->, correct sizes"
-    note: "**[VERIFY: sizes for your car]**"
+    note: "sizes from your owner's manual, a parts-store lookup, or by measuring the old blades"
   - name: "Glass cleaner<!-- AFF:amazon:glass-cleaner --> or washer fluid<!-- AFF:amazon:windshield-washer-fluid -->"
 
 safety:
@@ -75,13 +68,13 @@ sources:
 ---
 
 ![Car windshield wiper arm raised upright off the glass]({{ '/assets/images/how-to-replace-windshield-wiper-blades/hero-wiper-arm-raised.jpg' | relative_url }}){: .post-hero}
-<small class="photo-credit">Photo: [Shixart1985](https://commons.wikimedia.org/wiki/File:Car_windshield_wiper_displayed.jpg), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), via Wikimedia Commons; resized.</small>
+<small class="photo-credit">Photo: [Nenad Stojković (Shixart1985)](https://commons.wikimedia.org/wiki/File:Car_windshield_wiper_displayed.jpg), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), via Wikimedia Commons; resized.</small>
 
 <!-- SPEC SOURCES (editor notes, not rendered):
   ~6-month replacement, monthly inspection, replace in pairs, check rear, hook mount most common,
   refills fiddly, size from manual/measure/parts store: Consumer Reports wiper buying guide
   (fetched 2026-10-09; note CR marks this page archival, last updated 2016).
-  Blade lengths: NOT verified, vehicle-specific.
+  Blade lengths: vehicle-specific; spec row removed, specs_note covers where to find them.
   Wiper prices (fetched 2026-10-09): Do it Best Rain-X Vision 20 in $22.49 https://www.doitbest.com/product/586430/rain-x-vision-20-in-wiper-blade-586430/ ,
     Rain-X Latitude 20 in $25.49 https://www.doitbest.com/product/575895/rain-x-latitude-20-in-wiper-blade-575895/ ; Meijer search https://www.meijer.com/shopping/search.html?text=wiper%20blades :
     Rain-X Weatherbeater 20 in $10.99, Goodyear Vision Guard 20 in $15.49, Bosch Icon 20 in $26.99.
@@ -95,7 +88,7 @@ takes ten minutes in a parking lot, and you don't need any tools on most cars.
 1. **Get the right sizes.** Look up driver, passenger, and rear blade lengths (owner's manual or
    parts-store lookup), or measure the old blades.
 
-   ![Macro view of a used wiper blade's rubber edge]({{ '/assets/images/how-to-replace-windshield-wiper-blades/step01-worn-wiper-blade-edge.jpg' | relative_url }}){: loading="lazy"}
+   ![Close-up of a used wiper blade's rubber edge. Look for tears, splits, or hardened rubber on yours]({{ '/assets/images/how-to-replace-windshield-wiper-blades/step01-worn-wiper-blade-edge.jpg' | relative_url }}){: loading="lazy"}
    <small class="photo-credit">Photo: [Jacek Rużyczka](https://commons.wikimedia.org/wiki/File:Used_Michelin_8019_windshield_wiper_blade_tip.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), via Wikimedia Commons; resized.</small>
 
 2. **Turn the car off** with the wipers parked. If you have rain-sensing wipers, move the stalk
