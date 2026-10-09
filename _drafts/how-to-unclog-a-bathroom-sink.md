@@ -33,25 +33,19 @@ specs:
     applies_to: "Plastic slip-joint traps"
 
 tools:
-  - name: "Bucket and old towels"
-  - name: "Flashlight"
-  - name: "Rubber gloves"
-  - name: "Safety glasses"
-  - name: "Hair clog tool (plastic barbed strip)"
-    url: "AFFILIATE_LINK_PLACEHOLDER"
-    retailer: "Amazon"
-  - name: "Small cup plunger"
-  - name: "Channel-lock (tongue-and-groove) pliers"
-    url: "AFFILIATE_LINK_PLACEHOLDER"
-    retailer: "Amazon"
-  - name: "Hand drain snake (auger), 1/4-inch cable type"
+  - name: "Bucket<!-- AFF:amazon:bucket --> and old towels"
+  - name: "Flashlight<!-- AFF:amazon:flashlight -->"
+  - name: "Rubber gloves<!-- AFF:amazon:rubber-gloves -->"
+  - name: "Safety glasses<!-- AFF:amazon:safety-glasses -->"
+  - name: "Hair clog tool<!-- AFF:amazon:hair-clog-tool --> (plastic barbed strip)"
+  - name: "Small cup plunger<!-- AFF:amazon:cup-plunger -->"
+  - name: "Channel-lock (tongue-and-groove) pliers<!-- AFF:amazon:tongue-and-groove-pliers -->"
+  - name: "Hand drain snake (auger)<!-- AFF:amazon:hand-drain-snake -->, 1/4-inch cable type"
     note: "**[VERIFY: cable size suited to 1-1/4 in drains]**"
-    url: "AFFILIATE_LINK_PLACEHOLDER"
-    retailer: "Amazon"
   - name: "Old toothbrush"
 materials:
   - name: "Damp rag (to plug the overflow hole while plunging)"
-  - name: "Replacement slip-joint washers (only if the old ones are cracked)"
+  - name: "Replacement slip-joint washers<!-- AFF:amazon:slip-joint-washers --> (only if the old ones are cracked)"
 
 safety:
   - "**Skip chemical drain cleaners,** especially if you'll be plunging or opening the trap afterward. They can splash onto skin and eyes. If someone already used one, wear goggles and gloves and tell anyone helping."
@@ -60,10 +54,8 @@ safety:
   - "**Know where the sink's shutoff valves are** (under the sink) in case a supply line gets bumped."
 
 products:
-  - name: "Plastic hair clog tool"
+  - name: "Plastic hair clog tool<!-- AFF:amazon:hair-clog-tool -->"
     why: "Pulls hair out of the drain in a minute without taking anything apart."
-    url: "AFFILIATE_LINK_PLACEHOLDER"
-    retailer: "Amazon"
     label: "Try this first"
 
 faq:
@@ -107,7 +99,7 @@ the trap. You can usually clear it in under an hour with no chemicals and no plu
    under the sink for a horizontal rod held by a nut (the pivot nut). Unscrew the nut, pull the rod
    back, and lift the stopper out from above. {% comment %}SHOT LIST (original photo needed): Under-sink close-up of the pop-up's pivot rod and pivot nut on the back of the drain pipe, nut being loosened by hand; flashlight lit.{% endcomment %}
 3. **Clean the stopper.** Expect a gross clump of hair and gunk. Scrub it with an old toothbrush. {% comment %}SHOT LIST (original photo needed): Pulled stopper with the hair clump on it, held over a paper towel (gross but honest; keep it tight).{% endcomment %}
-4. **Fish out the drain.** Push a {% include aff-link.html text="hair clog tool" url="AFFILIATE_LINK_PLACEHOLDER" retailer="Amazon" %}
+4. **Fish out the drain.** Push a hair clog tool<!-- AFF:amazon:hair-clog-tool -->
    down the drain, twist, and pull. Repeat until it comes up clean. {% comment %}SHOT LIST (original photo needed): Plastic barbed hair-clog tool being pulled up out of the drain opening with debris on the barbs.{% endcomment %}
 5. **Test with the stopper still out.** Run hot water. If it drains well, reinstall the stopper (put
    the rod back through the stopper's slot and tighten the pivot nut hand-tight) and you're done.
@@ -125,7 +117,7 @@ the trap. You can usually clear it in under an hour with no chemicals and no plu
    <small class="photo-credit">Photo: [Tony Webster](https://commons.wikimedia.org/wiki/File:Leaking_PVC_Pipe_Under_Sink_-_P_Trap_%2852842956605%29.jpg), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), via Wikimedia Commons; resized.</small>
 
 8. **Clean the trap** and look into the pipe going into the wall. Clear anything you can reach.
-9. **Snake the wall pipe if needed.** Feed a {% include aff-link.html text="hand drain snake" url="AFFILIATE_LINK_PLACEHOLDER" retailer="Amazon" %}
+9. **Snake the wall pipe if needed.** Feed a hand drain snake<!-- AFF:amazon:hand-drain-snake -->
    into the wall pipe, crank it until you feel the clog, work it, and pull it back out.
 
    ![Hand drain snake: coiled steel cable with a red crank handle]({{ '/assets/images/how-to-unclog-a-bathroom-sink/step09-hand-drain-snake.jpg' | relative_url }}){: loading="lazy"}

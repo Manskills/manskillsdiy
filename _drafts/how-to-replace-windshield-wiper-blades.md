@@ -39,16 +39,14 @@ specs:
     applies_to: "General guidance"
 
 tools:
-  - name: "Tape measure (if you don't know the sizes)"
-  - name: "Small flat screwdriver (some release tabs)"
+  - name: "Tape measure<!-- AFF:amazon:tape-measure --> (if you don't know the sizes)"
+  - name: "Small flat screwdriver<!-- AFF:amazon:flathead-screwdriver --> (some release tabs)"
   - name: "Towel"
     note: "to pad the windshield under the bare arm"
 materials:
-  - name: "Wiper blades, correct sizes"
+  - name: "Wiper blades<!-- AFF:amazon:wiper-blades -->, correct sizes"
     note: "**[VERIFY: sizes for your car]**"
-    url: "AFFILIATE_LINK_PLACEHOLDER"
-    retailer: "Amazon"
-  - name: "Glass cleaner or washer fluid"
+  - name: "Glass cleaner<!-- AFF:amazon:glass-cleaner --> or washer fluid<!-- AFF:amazon:windshield-washer-fluid -->"
 
 safety:
   - "**Turn the car off and the wipers off** so they can't sweep while your hands are on the arm."
@@ -57,10 +55,8 @@ safety:
   - "**Mind the hood edge and arm tips.** Some cars park the wipers under the hood edge; your manual may describe a service position."
 
 products:
-  - name: "Beam-style wiper blades"
+  - name: "Beam-style wiper blades<!-- AFF:amazon:beam-wiper-blades -->"
     why: "Frameless blades that usually install on a hook arm in one click and don't ice up as easily."
-    url: "AFFILIATE_LINK_PLACEHOLDER"
-    retailer: "Amazon"
     label: "Worth considering"
 
 faq:

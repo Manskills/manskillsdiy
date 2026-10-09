@@ -52,26 +52,20 @@ specs:
     applies_to: "Large holes; attached-garage walls and ceilings"
 
 tools:
-  - name: "Putty knife (2–3 in)"
-  - name: "Drywall knife (6 in)"
-    url: "AFFILIATE_LINK_PLACEHOLDER"
-    retailer: "Amazon"
-  - name: "Wide drywall knife (10–12 in, for feathering final coats)"
-  - name: "Mud pan"
-  - name: "Sanding sponge or fine sandpaper"
-  - name: "Utility knife"
-  - name: "Drywall saw and drill/driver (large holes only)"
-  - name: "Dust mask and safety glasses"
-  - name: "Drop cloth"
+  - name: "Putty knife<!-- AFF:amazon:putty-knife --> (2–3 in)"
+  - name: "Drywall knife<!-- AFF:amazon:drywall-knife-6-inch --> (6 in)"
+  - name: "Wide drywall knife<!-- AFF:amazon:wide-drywall-knife --> (10–12 in, for feathering final coats)"
+  - name: "Mud pan<!-- AFF:amazon:mud-pan -->"
+  - name: "Sanding sponge<!-- AFF:amazon:sanding-sponge --> or fine sandpaper<!-- AFF:amazon:fine-sandpaper -->"
+  - name: "Utility knife<!-- AFF:amazon:utility-knife -->"
+  - name: "Drywall saw<!-- AFF:amazon:drywall-saw --> and drill/driver<!-- AFF:amazon:cordless-drill-driver --> (large holes only)"
+  - name: "Dust mask<!-- AFF:amazon:dust-mask --> and safety glasses<!-- AFF:amazon:safety-glasses -->"
+  - name: "Drop cloth<!-- AFF:amazon:drop-cloth -->"
 materials:
-  - name: "Lightweight spackle or joint compound"
-    url: "AFFILIATE_LINK_PLACEHOLDER"
-    retailer: "Amazon"
-  - name: "Drywall patch kit (mesh or metal)"
-    url: "AFFILIATE_LINK_PLACEHOLDER"
-    retailer: "Amazon"
-  - name: "Primer and matching touch-up paint"
-  - name: "Large holes: scrap drywall, two 1x3 boards, 1-1/4 in drywall screws, construction adhesive, paper tape"
+  - name: "Lightweight spackle<!-- AFF:amazon:lightweight-spackle --> or joint compound<!-- AFF:amazon:joint-compound -->"
+  - name: "Drywall patch kit<!-- AFF:amazon:drywall-patch-kit --> (mesh or metal)"
+  - name: "Primer<!-- AFF:amazon:drywall-primer --> and matching touch-up paint<!-- AFF:amazon:touch-up-paint -->"
+  - name: "Large holes: scrap drywall, two 1x3 boards, 1-1/4 in drywall screws<!-- AFF:amazon:drywall-screws-1-1-4-inch -->, construction adhesive<!-- AFF:amazon:construction-adhesive -->, paper tape<!-- AFF:amazon:drywall-paper-tape -->"
 
 safety:
   - "**Check for wires and pipes before cutting.** Shut off the circuit breaker for that wall area if you're cutting near outlets or switches, and cut shallow. Look inside the hole with a flashlight first."
@@ -79,10 +73,8 @@ safety:
   - "**Older homes:** the US banned lead-based paint for homes in 1978, so paint in a home built before 1978 may contain lead. Test before you sand. See the [EPA lead renovation guidance](https://www.epa.gov/lead/lead-renovation-repair-and-painting-program)."
 
 products:
-  - name: "Self-adhesive drywall patch kit"
+  - name: "Self-adhesive drywall patch kit<!-- AFF:amazon:self-adhesive-drywall-patch-kit -->"
     why: "The rigid metal-backed patch bridges a doorknob-size hole without cutting in backer boards."
-    url: "AFFILIATE_LINK_PLACEHOLDER"
-    retailer: "Amazon"
     label: "Our pick"
 
 faq:
@@ -145,7 +137,7 @@ out, a doorknob that went through. Here's how to patch each size so it disappear
 1. **Apply the patch.** Mesh for smaller holes, overlapping at least an inch all around; a metal
    patch for doorknob-size holes. Press it flat. {% comment %}SHOT LIST (original photo needed): Self-adhesive fiberglass mesh (or metal patch) pressed over a ~3 in hole, overlapping at least 1 in all round; ruler in frame.{% endcomment %}
 2. **Spread a thin coat of compound** over the patch with a 6-inch
-   {% include aff-link.html text="drywall knife" url="AFFILIATE_LINK_PLACEHOLDER" retailer="Amazon" %}, pushing it through the mesh.
+   drywall knife<!-- AFF:amazon:drywall-knife-6-inch -->, pushing it through the mesh.
 
    ![Ceiling drywall with blotches of joint compound over screw holes and taped seams]({{ '/assets/images/how-to-patch-a-hole-in-drywall/medium-step02-joint-compound-coat.jpg' | relative_url }}){: loading="lazy"}
    <small class="photo-credit">Photo: [Tomwsulcer](https://commons.wikimedia.org/wiki/File:Kitchen_renovation_spackling_to_cover_holes_and_tape_between_sheetrock_boards.JPG), [CC0](https://creativecommons.org/publicdomain/zero/1.0/), via Wikimedia Commons.</small>

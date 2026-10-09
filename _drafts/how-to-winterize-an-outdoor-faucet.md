@@ -45,17 +45,13 @@ specs:
     applies_to: "General"
 
 tools:
-  - name: "Bucket"
-  - name: "Flashlight"
+  - name: "Bucket<!-- AFF:amazon:bucket -->"
+  - name: "Flashlight<!-- AFF:amazon:flashlight -->"
   - name: "Towel"
-  - name: "Adjustable wrench (only if a valve handle is stiff)"
+  - name: "Adjustable wrench<!-- AFF:amazon:adjustable-wrench --> (only if a valve handle is stiff)"
 materials:
-  - name: "Insulated outdoor faucet cover"
-    url: "AFFILIATE_LINK_PLACEHOLDER"
-    retailer: "Amazon"
-  - name: "Foam pipe insulation (for exposed pipe in unheated spaces)"
-    url: "AFFILIATE_LINK_PLACEHOLDER"
-    retailer: "Amazon"
+  - name: "Insulated outdoor faucet cover<!-- AFF:amazon:insulated-faucet-cover -->"
+  - name: "Foam pipe insulation<!-- AFF:amazon:foam-pipe-insulation --> (for exposed pipe in unheated spaces)"
 
 safety:
   - "**Know where your main water shutoff is** before you start. If a valve breaks or a pipe leaks, you'll need it fast."
@@ -65,10 +61,8 @@ safety:
   - "**No antifreeze in drinking-water lines.**"
 
 products:
-  - name: "Insulated hose bib cover"
+  - name: "Insulated hose bib cover<!-- AFF:amazon:insulated-faucet-cover -->"
     why: "Cheap extra protection over a drained spigot during cold snaps."
-    url: "AFFILIATE_LINK_PLACEHOLDER"
-    retailer: "Amazon"
     label: "Worth having"
 
 faq:
@@ -133,7 +127,7 @@ about 15 minutes per faucet.
 8. **Frost-free faucet?** You may not have an indoor valve. Just make sure the hose is off so the
    body can drain. If it has a manual vacuum breaker on the spout, hold the drain tab open until it
    stops dripping. {% comment %}SHOT LIST (original photo needed): Side-by-side: a frost-free sillcock (long body through the rim joist, seen from inside) vs. a standard hose bib with a short body.{% endcomment %}
-9. **Insulate.** Put an {% include aff-link.html text="insulated faucet cover" url="AFFILIATE_LINK_PLACEHOLDER" retailer="Amazon" %}
+9. **Insulate.** Put an insulated faucet cover<!-- AFF:amazon:insulated-faucet-cover -->
    over the spigot, and wrap any exposed pipe in unheated spaces with foam insulation. {% comment %}SHOT LIST (original photo needed): Insulated foam faucet cover installed snugly over the hose bib on siding.{% endcomment %}
 10. **Repeat for every outdoor faucet.**
 11. **In spring,** close the bleeder and **close the outdoor faucet first**, then open the indoor

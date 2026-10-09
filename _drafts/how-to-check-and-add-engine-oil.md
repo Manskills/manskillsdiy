@@ -50,19 +50,13 @@ specs:
     applies_to: "Varies by vehicle"
 
 tools:
-  - name: "Clean rag or paper towels"
-  - name: "Funnel"
-    url: "AFFILIATE_LINK_PLACEHOLDER"
-    retailer: "Amazon"
-  - name: "Nitrile gloves"
-    url: "AFFILIATE_LINK_PLACEHOLDER"
-    retailer: "Amazon"
-  - name: "Flashlight"
+  - name: "Clean rag<!-- AFF:amazon:shop-rags --> or paper towels"
+  - name: "Funnel<!-- AFF:amazon:funnel -->"
+  - name: "Nitrile gloves<!-- AFF:amazon:nitrile-gloves -->"
+  - name: "Flashlight<!-- AFF:amazon:flashlight -->"
 materials:
-  - name: "Motor oil in the grade your manual specifies"
+  - name: "Motor oil<!-- AFF:amazon:motor-oil --> in the grade your manual specifies"
     note: "**[VERIFY: grade for your car]**"
-    url: "AFFILIATE_LINK_PLACEHOLDER"
-    retailer: "Amazon"
 
 safety:
   - "**Engine off, parking brake on.** Never reach into the engine bay with the engine running."
@@ -72,10 +66,8 @@ safety:
   - "**Wipe up spills.** Oil on the exhaust smokes and can be a fire risk."
 
 products:
-  - name: "Long-neck funnel"
+  - name: "Long-neck funnel<!-- AFF:amazon:long-neck-funnel -->"
     why: "Keeps oil off the engine when the filler cap is buried and hard to reach."
-    url: "AFFILIATE_LINK_PLACEHOLDER"
-    retailer: "Amazon"
     label: "Worth having"
 
 faq:
@@ -143,7 +135,7 @@ to protect an engine. Here's how to read the dipstick and top off without making
    ![Engine oil filler cap on top of an engine cover]({{ '/assets/images/how-to-check-and-add-engine-oil/step09-oil-filler-cap.jpg' | relative_url }}){: loading="lazy"}
    <small class="photo-credit">Photo: [Frettie](https://commons.wikimedia.org/wiki/File:Cover_of_refill_oil_tank_in_1,2_HTP_engine_in_%C5%A0koda_Fabia_I.jpg), [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/), via Wikimedia Commons; resized.</small>
 
-10. **Add oil a little at a time** using a {% include aff-link.html text="funnel" url="AFFILIATE_LINK_PLACEHOLDER" retailer="Amazon" %}.
+10. **Add oil a little at a time** using a funnel<!-- AFF:amazon:funnel -->.
     Use the grade from your owner's manual. Start with about half a quart.
 
    ![Pouring motor oil through a yellow funnel into the oil filler opening]({{ '/assets/images/how-to-check-and-add-engine-oil/step10-adding-oil-with-funnel.jpg' | relative_url }}){: loading="lazy"}

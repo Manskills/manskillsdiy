@@ -64,36 +64,28 @@ specs:
     applies_to: "All"
 
 tools:
-  - name: "Floor jack (or drive-up ramps)"
-  - name: "Two jack stands"
+  - name: "Floor jack<!-- AFF:amazon:floor-jack --> (or drive-up ramps<!-- AFF:amazon:car-ramps -->)"
+  - name: "Two jack stands<!-- AFF:amazon:jack-stands -->"
     note: "rated for the car's weight"
-    url: "AFFILIATE_LINK_PLACEHOLDER"
-    retailer: "Amazon"
-  - name: "Wheel chocks"
-  - name: "Socket wrench + drain plug socket"
+  - name: "Wheel chocks<!-- AFF:amazon:wheel-chocks -->"
+  - name: "Socket wrench<!-- AFF:amazon:socket-wrench --> + drain plug socket<!-- AFF:amazon:14mm-6-point-socket -->"
     note: "14 mm, 6-point recommended"
-  - name: "Oil filter wrench"
+  - name: "Oil filter wrench<!-- AFF:amazon:oil-filter-wrench -->"
     note: "cap-style or band-style"
-    url: "AFFILIATE_LINK_PLACEHOLDER"
-    retailer: "Amazon"
-  - name: "Torque wrench"
+  - name: "Torque wrench<!-- AFF:amazon:torque-wrench -->"
     note: "recommended"
-    url: "AFFILIATE_LINK_PLACEHOLDER"
-    retailer: "Amazon"
-  - name: "Drain pan (5 qt or larger)"
-  - name: "Funnel"
-  - name: "Nitrile gloves and safety glasses"
-  - name: "Shop rags"
+  - name: "Drain pan<!-- AFF:amazon:oil-drain-pan --> (5 qt or larger)"
+  - name: "Funnel<!-- AFF:amazon:funnel -->"
+  - name: "Nitrile gloves<!-- AFF:amazon:nitrile-gloves --> and safety glasses<!-- AFF:amazon:safety-glasses -->"
+  - name: "Shop rags<!-- AFF:amazon:shop-rags -->"
 materials:
-  - name: "Engine oil"
+  - name: "Engine oil<!-- AFF:amazon:motor-oil -->"
     note: "about 3.4 qt (4A-FE) or 3.9 qt (4A-GE) with the filter; grade in Quick specs"
-  - name: "Oil filter"
+  - name: "Oil filter<!-- AFF:amazon:oil-filter-toyota-90915-yzzn1 -->"
     note: "Toyota 90915-YZZN1 or equivalent; confirm by VIN"
-    url: "AFFILIATE_LINK_PLACEHOLDER"
-    retailer: "Amazon"
-  - name: "New drain plug gasket"
+  - name: "New drain plug gasket<!-- AFF:amazon:drain-plug-gasket-toyota-90430-12031 -->"
     note: "Toyota 90430-12031; replace every change"
-  - name: "Sealed container for used oil"
+  - name: "Sealed container for used oil<!-- AFF:amazon:used-oil-container -->"
 
 safety:
   - "**Never get under a car held up only by a jack.** Jack at the center of the front engine crossmember, never the oil pan, and set jack stands under the pinch welds just behind the front wheels, on flat, solid ground. Or use ramps."
@@ -103,10 +95,8 @@ safety:
   - "**Recycle used oil.** Don't dump it; most auto parts stores take it."
 
 products:
-  - name: "Oil filter wrench"
+  - name: "Oil filter wrench<!-- AFF:amazon:oil-filter-wrench -->"
     why: "Factory-tight or stuck filters are the #1 place first-timers get stuck."
-    url: "AFFILIATE_LINK_PLACEHOLDER"
-    retailer: "Amazon"
     label: "Worth having"
 
 faq:
@@ -171,7 +161,7 @@ sources:
 
 7. **Reinstall the drain plug** with a new gasket (Toyota 90430-12031). Start it by hand, then tighten to the
    torque in Quick specs. Don't overtighten; oil pan threads strip easily. {% comment %}SHOT LIST (original photo needed): Close-up of a torque wrench with the drain-plug socket on the plug, new crush washer visible on the plug before install (two-shot sequence ok).{% endcomment %}
-8. **Remove the old filter** with your {% include aff-link.html text="oil filter wrench" url="AFFILIATE_LINK_PLACEHOLDER" retailer="Amazon" %},
+8. **Remove the old filter** with your oil filter wrench<!-- AFF:amazon:oil-filter-wrench -->,
    turning counterclockwise. Expect more oil to spill.
 
    ![Cap-style oil filter wrench on a ratchet being used to loosen a spin-on oil filter under a car]({{ '/assets/images/how-to-change-oil-1991-toyota-corolla/step08-oil-filter-wrench.jpg' | relative_url }}){: loading="lazy"}

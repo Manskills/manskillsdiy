@@ -50,23 +50,17 @@ specs:
     applies_to: "Varies by product"
 
 tools:
-  - name: "Stud finder"
-    url: "AFFILIATE_LINK_PLACEHOLDER"
-    retailer: "Amazon"
-  - name: "Tape measure"
-  - name: "Level (24 in or longer)"
-    url: "AFFILIATE_LINK_PLACEHOLDER"
-    retailer: "Amazon"
-  - name: "Pencil and painter's tape"
-  - name: "Drill/driver and drill bits"
-  - name: "Socket set (for lag bolts)"
-  - name: "Safety glasses"
+  - name: "Stud finder<!-- AFF:amazon:stud-finder -->"
+  - name: "Tape measure<!-- AFF:amazon:tape-measure -->"
+  - name: "Level<!-- AFF:amazon:level-24-inch --> (24 in or longer)"
+  - name: "Pencil and painter's tape<!-- AFF:amazon:painters-tape -->"
+  - name: "Drill/driver<!-- AFF:amazon:cordless-drill-driver --> and drill bits<!-- AFF:amazon:drill-bit-set -->"
+  - name: "Socket set<!-- AFF:amazon:socket-set --> (for lag bolts)"
+  - name: "Safety glasses<!-- AFF:amazon:safety-glasses -->"
   - name: "A helper (for TVs and big mirrors)"
 materials:
-  - name: "TV wall mount rated for your TV's size, weight, and VESA pattern"
-    url: "AFFILIATE_LINK_PLACEHOLDER"
-    retailer: "Amazon"
-  - name: "Picture hanging hardware or heavy-duty anchors rated above the item's weight"
+  - name: "TV wall mount<!-- AFF:amazon:tv-wall-mount --> rated for your TV's size, weight, and VESA pattern"
+  - name: "Picture hanging hardware<!-- AFF:amazon:picture-hanging-kit --> or heavy-duty anchors<!-- AFF:amazon:heavy-duty-drywall-anchors --> rated above the item's weight"
 
 safety:
   - "**Watch for wires and pipes.** Wires often run vertically beside outlets and switches and horizontally between them. Avoid drilling directly above or below outlets/switches, and use a stud finder with AC detection if you have one. If in doubt, shut off the breaker for that wall."
@@ -77,10 +71,8 @@ safety:
   - "**Secure furniture and TVs against tip-over** if kids are in the house. See the CPSC's [Anchor It! guidance](https://www.anchorit.gov/)."
 
 products:
-  - name: "Stud finder with AC wire detection"
+  - name: "Stud finder with AC wire detection<!-- AFF:amazon:stud-finder-ac-wire-detection -->"
     why: "Helps you find the stud and warns you about live wires before you drill."
-    url: "AFFILIATE_LINK_PLACEHOLDER"
-    retailer: "Amazon"
     label: "Our pick"
 
 faq:
@@ -129,7 +121,7 @@ The fix is finding the studs, the wood framing behind the wall, and fastening in
 ### Find the stud
 
 1. **Plan the spot.** Decide on height and center, and mark it lightly with painter's tape.
-2. **Calibrate the {% include aff-link.html text="stud finder" url="AFFILIATE_LINK_PLACEHOLDER" retailer="Amazon" %}**
+2. **Calibrate the stud finder<!-- AFF:amazon:stud-finder -->**
    by placing it flat on the wall where there's no stud and turning it on (follow its instructions).
 
    ![Handheld electronic stud finder / wall scanner]({{ '/assets/images/how-to-find-a-stud-and-hang-a-heavy-tv-or-picture/find-step02-electronic-stud-finder.jpg' | relative_url }}){: loading="lazy"}
@@ -145,7 +137,7 @@ The fix is finding the studs, the wood framing behind the wall, and fastening in
 ### Hanging a heavy picture or mirror
 
 1. **Put at least one fastener into a stud.** Use a screw or picture hook rated for the weight.
-2. **If you can't hit a stud,** use a heavy-duty anchor rated well above the item's weight, following
+2. **If you can't hit a stud,** use a heavy-duty anchor<!-- AFF:amazon:heavy-duty-drywall-anchors --> rated well above the item's weight, following
    the package instructions.
 3. **Level it** and step back before you call it done.
 

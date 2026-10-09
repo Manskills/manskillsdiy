@@ -51,23 +51,17 @@ specs:
     applies_to: "That model; other mowers: check your manual"
 
 tools:
-  - name: "Socket wrench and socket for the blade bolt"
+  - name: "Socket wrench<!-- AFF:amazon:socket-wrench --> and socket for the blade bolt"
     note: "**[VERIFY: size per mower]**"
   - name: "Block of wood (to stop the blade turning)"
-  - name: "Bench vise"
-  - name: "Mill bastard file, or a bench grinder / drill-mounted blade sharpener"
-    url: "AFFILIATE_LINK_PLACEHOLDER"
-    retailer: "Amazon"
-  - name: "Blade balancer (cone type) or a 5/8 in steel bolt"
-    url: "AFFILIATE_LINK_PLACEHOLDER"
-    retailer: "Amazon"
-  - name: "Torque wrench"
-    url: "AFFILIATE_LINK_PLACEHOLDER"
-    retailer: "Amazon"
-  - name: "Heavy work gloves and safety glasses"
-  - name: "Marker or paint pen"
+  - name: "Bench vise<!-- AFF:amazon:bench-vise -->"
+  - name: "Mill bastard file<!-- AFF:amazon:mill-bastard-file -->, or a bench grinder<!-- AFF:amazon:bench-grinder --> / drill-mounted blade sharpener<!-- AFF:amazon:drill-mower-blade-sharpener -->"
+  - name: "Blade balancer (cone type)<!-- AFF:amazon:cone-blade-balancer --> or a 5/8 in steel bolt"
+  - name: "Torque wrench<!-- AFF:amazon:torque-wrench -->"
+  - name: "Heavy work gloves<!-- AFF:amazon:heavy-work-gloves --> and safety glasses<!-- AFF:amazon:safety-glasses -->"
+  - name: "Marker or paint pen<!-- AFF:amazon:paint-pen -->"
 materials:
-  - name: "Replacement blade (if bent, cracked, or worn thin)"
+  - name: "Replacement blade<!-- AFF:amazon:replacement-mower-blade --> (if bent, cracked, or worn thin)"
     note: "manufacturer-approved part only **[VERIFY: part number per mower]**"
   - name: "Plastic sandwich bag (to seal the gas cap)"
 
@@ -81,10 +75,8 @@ safety:
   - "**Keep it balanced.** An unbalanced blade vibrates and can damage the engine."
 
 products:
-  - name: "Cone blade balancer"
+  - name: "Cone blade balancer<!-- AFF:amazon:cone-blade-balancer -->"
     why: "Cheap, and it makes the balance check foolproof."
-    url: "AFFILIATE_LINK_PLACEHOLDER"
-    retailer: "Amazon"
     label: "Worth having"
 
 faq:
@@ -144,7 +136,7 @@ ragged tips. Sharpening the blade takes under an hour and makes an old mower cut
    the crankshaft). If either is cracked, bent, or sheared, replace it.
 8. **Clamp the blade in a vise,** cutting edge up. {% comment %}SHOT LIST (original photo needed): Blade clamped in a bench vise, cutting edge up, outer 3-4 in sticking out.{% endcomment %}
 9. **Sharpen the cutting edge,** following the existing bevel. Use a
-   {% include aff-link.html text="mill file" url="AFFILIATE_LINK_PLACEHOLDER" retailer="Amazon" %}
+   mill file<!-- AFF:amazon:mill-bastard-file -->
    pushed in one direction along the edge, or short light passes on a grinder. Focus on the outer
    3–4 inches. Take off nicks first. {% comment %}SHOT LIST (original photo needed): Mill file stroking the cutting edge at the factory bevel angle, push stroke only; second macro of the bright new edge.{% endcomment %}
 
@@ -153,7 +145,7 @@ ragged tips. Sharpening the blade takes under an hour and makes an old mower cut
 
 10. **Do the other end** the same way, with about the same number of strokes.
 11. **Balance it.** Hang the blade on a
-    {% include aff-link.html text="cone balancer" url="AFFILIATE_LINK_PLACEHOLDER" retailer="Amazon" %}
+    cone balancer<!-- AFF:amazon:cone-blade-balancer -->
     or the smooth shank of a 5/8-inch bolt held level. If one end drops, take a little more metal off
     that end (not the edge) and recheck until it sits level. {% comment %}SHOT LIST (original photo needed): Blade hung on a cone balancer (or a 5/8 in bolt in a vise) sitting level; second shot showing one end dipping (unbalanced).{% endcomment %}
 12. **Reinstall the blade** with the marked side down, all washers in their original order.

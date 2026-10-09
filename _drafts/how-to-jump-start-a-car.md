@@ -52,16 +52,12 @@ specs:
     applies_to: "General guidance"
 
 tools:
-  - name: "Jumper cables"
+  - name: "Jumper cables<!-- AFF:amazon:jumper-cables -->"
     note: "heavy-duty; see Quick specs"
-    url: "AFFILIATE_LINK_PLACEHOLDER"
-    retailer: "Amazon"
-  - name: "Portable jump starter (alternative to a second car)"
-    url: "AFFILIATE_LINK_PLACEHOLDER"
-    retailer: "Amazon"
-  - name: "Safety glasses"
-  - name: "Gloves"
-  - name: "Wire brush (for corroded terminals)"
+  - name: "Portable jump starter<!-- AFF:amazon:portable-jump-starter --> (alternative to a second car)"
+  - name: "Safety glasses<!-- AFF:amazon:safety-glasses -->"
+  - name: "Gloves<!-- AFF:amazon:work-gloves -->"
+  - name: "Wire brush<!-- AFF:amazon:battery-terminal-wire-brush --> (for corroded terminals)"
 materials:
   - name: "A running car with a working 12-volt battery (the donor)"
 
@@ -75,10 +71,8 @@ safety:
   - "**Pull fully off the road** and turn on hazard lights if you're on a shoulder."
 
 products:
-  - name: "Portable jump starter"
+  - name: "Portable jump starter<!-- AFF:amazon:portable-jump-starter -->"
     why: "Lets you start your own car without needing a second car or a stranger."
-    url: "AFFILIATE_LINK_PLACEHOLDER"
-    retailer: "Amazon"
     label: "Worth having"
 
 faq:

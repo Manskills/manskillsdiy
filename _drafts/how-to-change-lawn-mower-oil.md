@@ -52,21 +52,17 @@ specs:
     applies_to: "Briggs & Stratton; check your manual"
 
 tools:
-  - name: "Oil drain pan or old jug"
-  - name: "Socket wrench, 3/8 in drive + extension (if your mower has a drain plug)"
+  - name: "Oil drain pan<!-- AFF:amazon:oil-drain-pan --> or old jug"
+  - name: "Socket wrench, 3/8 in drive + extension<!-- AFF:amazon:socket-wrench-3-8-drive-with-extension --> (if your mower has a drain plug)"
     note: "Briggs notes many plugs take the extension's square end directly; others need a socket **[VERIFY: per model]**"
-  - name: "Oil extractor pump (alternative to tipping)"
-    url: "AFFILIATE_LINK_PLACEHOLDER"
-    retailer: "Amazon"
-  - name: "Funnel"
-  - name: "Rags and newspaper or cardboard"
-  - name: "Gloves"
+  - name: "Oil extractor pump<!-- AFF:amazon:oil-extractor-pump --> (alternative to tipping)"
+  - name: "Funnel<!-- AFF:amazon:funnel -->"
+  - name: "Rags<!-- AFF:amazon:shop-rags --> and newspaper or cardboard"
+  - name: "Gloves<!-- AFF:amazon:nitrile-gloves -->"
 materials:
-  - name: "Small-engine oil (see Quick specs)"
-    url: "AFFILIATE_LINK_PLACEHOLDER"
-    retailer: "Amazon"
-  - name: "Plastic sandwich bag (to seal the gas cap) or a siphon to empty the tank"
-  - name: "Sealed container for used oil"
+  - name: "Small-engine oil<!-- AFF:amazon:small-engine-oil --> (see Quick specs)"
+  - name: "Plastic sandwich bag (to seal the gas cap) or a siphon<!-- AFF:amazon:fuel-siphon-pump --> to empty the tank"
+  - name: "Sealed container for used oil<!-- AFF:amazon:used-oil-container -->"
 
 safety:
   - "**Disconnect the spark plug wire** and tuck it away from the plug before you tip the mower or touch the blade. This prevents accidental starting."
@@ -76,10 +72,8 @@ safety:
   - "**Wear gloves** and recycle used oil at an auto parts store or recycling center."
 
 products:
-  - name: "Oil extractor pump"
+  - name: "Oil extractor pump<!-- AFF:amazon:oil-extractor-pump -->"
     why: "Sucks the oil out of the dipstick tube, so you don't have to tip the mower at all."
-    url: "AFFILIATE_LINK_PLACEHOLDER"
-    retailer: "Amazon"
     label: "Worth having"
 
 faq:
@@ -138,7 +132,7 @@ and skipping it is the fastest way to kill the mower. Here's how to do it withou
 5. **Clean around the dipstick and drain plug** so dirt doesn't fall into the engine.
 6. **Drain the oil** one of three ways:
    - **Extractor:** pump it out through the dipstick tube with an
-     {% include aff-link.html text="oil extractor" url="AFFILIATE_LINK_PLACEHOLDER" retailer="Amazon" %}.
+     oil extractor<!-- AFF:amazon:oil-extractor-pump -->.
    - **Drain plug:** tip the mower (air filter side up) over a drain pan, remove the plug, and let it drain.
    - **No plug:** remove the dipstick and tip the mower (air filter side up) to pour the oil out of
      the fill tube into a pan. {% comment %}SHOT LIST (original photo needed): Mower tipped with the air-filter/spark-plug side up, oil draining from the fill tube (or drain plug) into a pan; second angle showing the tipping direction clearly.{% endcomment %}

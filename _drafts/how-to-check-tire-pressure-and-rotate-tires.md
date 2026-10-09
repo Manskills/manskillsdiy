@@ -63,24 +63,18 @@ specs:
     applies_to: "Varies by vehicle"
 
 tools:
-  - name: "Tire pressure gauge"
-    url: "AFFILIATE_LINK_PLACEHOLDER"
-    retailer: "Amazon"
-  - name: "Air compressor or gas-station air pump"
-  - name: "Floor jack"
+  - name: "Tire pressure gauge<!-- AFF:amazon:tire-pressure-gauge -->"
+  - name: "Air compressor<!-- AFF:amazon:portable-air-compressor --> or gas-station air pump"
+  - name: "Floor jack<!-- AFF:amazon:floor-jack -->"
     note: "or the car's factory jack, for lifting only"
-  - name: "Two jack stands (four makes rotation easier)"
+  - name: "Two jack stands<!-- AFF:amazon:jack-stands --> (four makes rotation easier)"
     note: "rated for your vehicle's weight"
-    url: "AFFILIATE_LINK_PLACEHOLDER"
-    retailer: "Amazon"
-  - name: "Wheel chocks"
-  - name: "Lug wrench or breaker bar + correct socket"
+  - name: "Wheel chocks<!-- AFF:amazon:wheel-chocks -->"
+  - name: "Lug wrench<!-- AFF:amazon:lug-wrench --> or breaker bar<!-- AFF:amazon:breaker-bar --> + correct socket"
     note: "**[VERIFY: lug nut size for your car]**"
-  - name: "Torque wrench"
-    url: "AFFILIATE_LINK_PLACEHOLDER"
-    retailer: "Amazon"
+  - name: "Torque wrench<!-- AFF:amazon:torque-wrench -->"
   - name: "A penny"
-  - name: "Chalk or tape (to mark tire positions)"
+  - name: "Chalk<!-- AFF:amazon:tire-marking-chalk --> or tape (to mark tire positions)"
 materials:
   - name: "Wheel lock key (if your car has locking lug nuts)"
 
@@ -93,15 +87,11 @@ safety:
   - "**Re-check lug nut torque** after the first 50–100 miles. **[VERIFY: interval per owner's manual or tire shop guidance]**"
 
 products:
-  - name: "Digital tire pressure gauge"
+  - name: "Digital tire pressure gauge<!-- AFF:amazon:digital-tire-pressure-gauge -->"
     why: "Easier to read than a pencil gauge and cheap enough to keep in the glovebox."
-    url: "AFFILIATE_LINK_PLACEHOLDER"
-    retailer: "Amazon"
     label: "Our pick"
-  - name: "Jack stands (pair)"
+  - name: "Jack stands (pair)<!-- AFF:amazon:jack-stands -->"
     why: "The non-negotiable piece of safety gear for any job that lifts the car."
-    url: "AFFILIATE_LINK_PLACEHOLDER"
-    retailer: "Amazon"
 
 faq:
   - q: "Should I fill to the number on the tire?"
@@ -150,7 +140,7 @@ takes ten minutes; rotating your tires takes about an hour with the right gear.
    ![Tire valve stem on an alloy wheel with the cap removed]({{ '/assets/images/how-to-check-tire-pressure-and-rotate-tires/p1-step03-valve-stem-cap-off.jpg' | relative_url }}){: loading="lazy"}
    <small class="photo-credit">Photo: [Christopher Ziemnowicz (CZmarlin)](https://commons.wikimedia.org/wiki/File:Tire_valve_stem-cap_off.jpg), public domain, via Wikimedia Commons.</small>
 
-4. **Press the {% include aff-link.html text="tire gauge" url="AFFILIATE_LINK_PLACEHOLDER" retailer="Amazon" %}
+4. **Press the tire gauge<!-- AFF:amazon:tire-pressure-gauge -->
    straight onto the valve** until the hissing stops, and read it.
 
    ![Hands pressing a dial tire gauge onto a tire's valve stem]({{ '/assets/images/how-to-check-tire-pressure-and-rotate-tires/p1-step04-pressing-gauge-on-valve.jpg' | relative_url }}){: loading="lazy"}
@@ -191,7 +181,7 @@ takes ten minutes; rotating your tires takes about an hour with the right gear.
 7. **Thread the lug nuts on by hand,** then snug them in a star (crisscross) pattern. {% comment %}SHOT LIST (original photo needed): Wheel close-up with numbered overlay (1-5 or 1-4) showing star/crisscross tightening order; graphic overlay added in post.{% endcomment %}
 8. **Lower the car** off the stands.
 9. **Torque the lug nuts** in a star pattern to the spec in your owner's manual using a
-   {% include aff-link.html text="torque wrench" url="AFFILIATE_LINK_PLACEHOLDER" retailer="Amazon" %}.
+   torque wrench<!-- AFF:amazon:torque-wrench -->.
 
    ![Click-type torque wrench with a socket fitted]({{ '/assets/images/how-to-check-tire-pressure-and-rotate-tires/p2-step09-click-torque-wrench.jpg' | relative_url }}){: loading="lazy"}
    <small class="photo-credit">Photo: [Lead holder](https://commons.wikimedia.org/wiki/File:Torque_wrench_20-220_Nm.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), via Wikimedia Commons.</small>
