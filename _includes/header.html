@@ -1,0 +1,25 @@
+{%- comment -%}
+  Override of minima 2.5.1 _includes/header.html.
+  Adds a category menu driven by _data/navigation.yml. Keeps minima's CSS-only
+  mobile hamburger (checkbox + label), so no JavaScript is required.
+{%- endcomment -%}
+<header class="site-header" role="banner">
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    <nav class="site-nav" aria-label="Main">
+      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+      <label for="nav-trigger">
+        <span class="menu-icon">
+          <svg viewBox="0 0 18 15" width="18px" height="15px" aria-hidden="true"><path d="M0 1.5h18M0 7.5h18M0 13.5h18" stroke="currentColor" stroke-width="2"/></svg>
+        </span>
+      </label>
+      <div class="trigger">
+        {%- for item in site.data.navigation.main -%}
+          {%- assign item_url = item.url | relative_url -%}
+          {%- assign item_slug = item.url | remove: '/' -%}
+          <a class="page-link{% if page.url == item.url or page.categories contains item_slug %} is-active{% endif %}" href="{{ item_url }}">{{ item.title | escape }}</a>
+        {%- endfor -%}
+      </div>
+    </nav>
+  </div>
+</header>

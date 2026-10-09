@@ -1,0 +1,13 @@
+{%- comment -%}
+  Visible sources list (front matter `sources:` [{title, url}]). Readers see where specs came from.
+{%- endcomment -%}
+{%- if page.sources -%}
+<section class="sources" id="sources">
+  <h2>Sources</h2>
+  <ol>
+    {%- for s in page.sources -%}
+    <li><a href="{{ s.url }}" rel="nofollow noopener" target="_blank">{{ s.title }}</a>{% if s.note %}: {{ s.note }}{% endif %}</li>
+    {%- endfor -%}
+  </ol>
+</section>
+{%- endif -%}

@@ -1,0 +1,16 @@
+{%- comment -%}
+  Jump links. The how-to layout renders fixed sections with known ids, so the list is built
+  from what the page actually has. (For a TOC of headings inside the markdown body you can
+  also put kramdown's built-in `* TOC` + `{:toc}` in the post; no plugin needed.)
+{%- endcomment -%}
+<nav class="jump-links" aria-label="Jump to section">
+  <span class="jump-links__title">Jump to:</span>
+  <ul>
+    {%- if page.specs %}<li><a href="#specs">Quick specs</a></li>{% endif -%}
+    {%- if page.tools or page.materials %}<li><a href="#tools">What you'll need</a></li>{% endif -%}
+    {%- if page.safety %}<li><a href="#safety">Safety</a></li>{% endif -%}
+    <li><a href="#steps">Step-by-step</a></li>
+    {%- if page.faq %}<li><a href="#faq">FAQ</a></li>{% endif -%}
+    {%- if page.sources %}<li><a href="#sources">Sources</a></li>{% endif -%}
+  </ul>
+</nav>

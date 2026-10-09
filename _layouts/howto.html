@@ -1,0 +1,62 @@
+---
+layout: default
+---
+{%- comment -%}
+  Reusable how-to layout. Section order is modeled on what the analyzed sites do
+  (see report §1): title → byline/updated/reviewed → disclosure (above first paid link) →
+  at-a-glance overview → jump links → quick specs (with sources) → what you'll need →
+  safety → steps (markdown body) → FAQ → sources → author box → related guides.
+  Everything is driven by front matter; the markdown body only holds intro + steps.
+{%- endcomment -%}
+{%- assign cat = site.data.categories | where: "slug", page.categories[0] | first -%}
+<article class="post howto h-entry" itemscope itemtype="http://schema.org/Article">
+
+  <header class="post-header">
+    {%- if cat -%}
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="{{ '/' | relative_url }}">Home</a> › <a href="{{ cat.slug | prepend: '/' | append: '/' | relative_url }}">{{ cat.title }}</a>
+    </nav>
+    {%- endif -%}
+    <h1 class="post-title p-name" itemprop="headline">{{ page.title | escape }}</h1>
+    {%- if page.description %}<p class="post-dek">{{ page.description | escape }}</p>{% endif -%}
+    {% include author-box.html style="byline" %}
+  </header>
+
+  {% include fact-check-banner.html %}
+  {%- if page.has_affiliate_links -%}{% include disclosure-inline.html %}{%- endif -%}
+
+  {% include project-overview.html %}
+  {% include toc.html %}
+  {% include specs-table.html %}
+  {%- if page.tools or page.materials -%}{% include tools-list.html %}{%- endif -%}
+  {% include safety.html %}
+
+  <div class="post-content e-content" id="steps" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  {%- if page.products -%}
+  <section class="recommended-gear" id="gear">
+    <h2>Gear that makes this job easier</h2>
+    {%- for p in page.products -%}{% include product-box.html product=p %}{%- endfor -%}
+  </section>
+  {%- endif -%}
+
+  {% include faq.html %}
+  {% include sources.html %}
+  {% include author-box.html %}
+
+  {%- if cat -%}
+  {%- assign related = site.categories[cat.slug] | where_exp: "p", "p.url != page.url" -%}
+  {%- if related.size > 0 -%}
+  <section class="related">
+    <h2>More {{ cat.title | downcase }} guides</h2>
+    <div class="post-grid">
+      {%- for p in related limit: 3 -%}{% include post-card.html post=p %}{%- endfor -%}
+    </div>
+  </section>
+  {%- endif -%}
+  {%- endif -%}
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>

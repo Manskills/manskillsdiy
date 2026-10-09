@@ -1,4 +1,4 @@
-# Site settings for GitHub Pages (Jekyll)
+# Site settings for GitHub Pages (Jekyll 3.10 + minima 2.5.1 overrides, whitelisted plugins only).
 title: "Manskills DIY"
 description: >-
   Step-by-step car maintenance, home repair, and small mechanical fixes for guys
@@ -7,43 +7,52 @@ description: >-
 author: "Manskills DIY"
 email: ""
 
-# URL settings
 url: "https://manskills.github.io"
-# NOTE: baseurl becomes "" once the custom domain manskillsdiy.com is set up
-# (and url becomes "https://manskillsdiy.com").
+# NOTE: baseurl becomes "" once the custom domain manskillsdiy.com is set up.
 baseurl: "/manskillsdiy"
 
-# Theme (supported natively by GitHub Pages)
 theme: minima
-
-# Permalinks: /car-maintenance/how-to-change-oil-1991-toyota-corolla/
 permalink: /:categories/:title/
 
-# Plugins (all on the GitHub Pages allow-list)
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
 
-# Pages shown in the minima header nav
+minima:
+  date_format: "%b %-d, %Y"
+
+# Header nav is rendered from _data/navigation.yml by the overridden _includes/header.html.
+# header_pages is kept so minima's fallback behaviour still works if the override is removed.
 header_pages:
   - about.md
+  - how-we-research.md
   - affiliate-disclosure.md
 
+# Affiliate settings used by _includes/product-box.html, aff-link.html, disclosure-inline.html
+affiliates:
+  # Flip to true ONLY after the Amazon Associates account is approved. It turns on the
+  # required statement "As an Amazon Associate I earn from qualifying purchases."
+  amazon_enrolled: false
+  # Default rel for every affiliate link. Deliberately no "noreferrer" (see report: Amazon
+  # policy forbids obscuring the referring site).
+  rel: "sponsored nofollow noopener"
+
 markdown: kramdown
+kramdown:
+  auto_ids: true          # gives every heading an id so jump links work
 show_excerpts: true
 
-# Post categories used on this site:
-#   car-maintenance, home-repair, small-fixes
 defaults:
-  - scope:
-      path: ""
-      type: "posts"
+  - scope: { path: "", type: "posts" }
     values:
-      layout: "post"
-  - scope:
-      path: ""
-      type: "pages"
+      layout: "howto"
+      author: "manskills"
+  - scope: { path: "_drafts", type: "drafts" }
+    values:
+      layout: "howto"
+      author: "manskills"
+  - scope: { path: "", type: "pages" }
     values:
       layout: "page"
 
@@ -52,3 +61,4 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor/
+  - _templates/

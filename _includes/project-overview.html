@@ -1,0 +1,15 @@
+{%- comment -%}
+  "At a glance" box (pattern seen on The Spruce "Project Overview", Family Handyman
+  "Total Time / Complexity / Cost", Car and Driver "What To Expect").
+  Front matter: difficulty, time, cost, applies_to
+{%- endcomment -%}
+{%- if page.difficulty or page.time or page.cost -%}
+<section class="overview" id="overview" aria-label="Project overview">
+  <dl class="overview__grid">
+    {%- if page.difficulty %}<div><dt>Skill level</dt><dd>{{ page.difficulty }}</dd></div>{% endif -%}
+    {%- if page.time %}<div><dt>Time</dt><dd>{{ page.time }}</dd></div>{% endif -%}
+    {%- if page.cost %}<div><dt>Est. cost</dt><dd>{{ page.cost }}</dd></div>{% endif -%}
+    {%- if page.applies_to %}<div class="overview__wide"><dt>Applies to</dt><dd>{{ page.applies_to }}</dd></div>{% endif -%}
+  </dl>
+</section>
+{%- endif -%}

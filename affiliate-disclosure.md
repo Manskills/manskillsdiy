@@ -11,8 +11,9 @@ We only link to tools and products we think are useful for the job being
 described. Commissions help cover the cost of running this site and don't
 change the price you pay.
 
-As an Amazon Associate, Manskills DIY may earn from qualifying purchases. We may
-also participate in other affiliate programs, such as ClickBank and ShareASale.
+{% if site.affiliates.amazon_enrolled %}As an Amazon Associate I earn from qualifying purchases. {% endif %}We may
+participate in affiliate programs such as Amazon Associates, ClickBank, and ShareASale.
+Affiliate links are labeled "paid link" where they appear.
 
 This disclosure is provided in accordance with the U.S. Federal Trade
 Commission's guidelines on endorsements and testimonials.

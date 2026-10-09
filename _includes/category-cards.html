@@ -1,0 +1,11 @@
+<section class="category-cards" aria-label="Browse by category">
+  {%- for c in site.data.categories -%}
+  {%- assign count = site.categories[c.slug] | size -%}
+  <a class="category-card" href="{{ c.slug | prepend: '/' | append: '/' | relative_url }}">
+    <span class="category-card__icon" aria-hidden="true">{{ c.icon }}</span>
+    <span class="category-card__title">{{ c.title }}</span>
+    <span class="category-card__blurb">{{ c.blurb }}</span>
+    <span class="category-card__count">{% if count > 0 %}{{ count }} guide{% if count != 1 %}s{% endif %}{% else %}Guides coming soon{% endif %}</span>
+  </a>
+  {%- endfor -%}
+</section>

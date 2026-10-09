@@ -1,0 +1,19 @@
+{%- comment -%}
+  FAQ from front matter:
+    faq:
+      - q: "How often should I change the oil?"
+        a: "Follow the interval in your owner's manual..."
+  Uses native <details>/<summary> (no JS). We do NOT emit FAQPage JSON-LD: Google stopped
+  showing FAQ rich results in May 2026 (see report), so it adds nothing for search.
+{%- endcomment -%}
+{%- if page.faq -%}
+<section class="faq" id="faq">
+  <h2>FAQ</h2>
+  {%- for item in page.faq -%}
+  <details class="faq__item">
+    <summary>{{ item.q }}</summary>
+    <div class="faq__a">{{ item.a | markdownify }}</div>
+  </details>
+  {%- endfor -%}
+</section>
+{%- endif -%}

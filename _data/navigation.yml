@@ -1,0 +1,10 @@
+# Header menu. "categories" entries are pulled from _data/categories.yml.
+main:
+  - title: "Car Maintenance"
+    url: /car-maintenance/
+  - title: "Home Repair"
+    url: /home-repair/
+  - title: "Small Fixes"
+    url: /small-fixes/
+  - title: "About"
+    url: /about/

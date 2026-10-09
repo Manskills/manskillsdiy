@@ -1,0 +1,12 @@
+{%- comment -%}
+  Inline affiliate text link.
+  Usage: {% include aff-link.html text="oil filter wrench" url="AFFILIATE_LINK_PLACEHOLDER" retailer="Amazon" %}
+  - Renders plain text (no link) while url is blank or a placeholder, so nothing broken ships.
+  - Adds a visible "(paid link)" label right next to the link (FTC Q&A wording).
+{%- endcomment -%}
+{%- assign _url = include.url | default: "" -%}
+{%- if _url == "" or _url contains "PLACEHOLDER" -%}
+<span class="aff-pending" title="Affiliate link pending">{{ include.text }}</span><!-- AFFILIATE LINK PENDING: {{ include.text }} -->
+{%- else -%}
+<a class="aff-link" href="{{ _url }}" rel="{{ site.affiliates.rel | default: 'sponsored nofollow noopener' }}" target="_blank">{{ include.text }}</a> <span class="paid-label">(paid link{% if include.retailer %}, {{ include.retailer }}{% endif %})</span>
+{%- endif -%}

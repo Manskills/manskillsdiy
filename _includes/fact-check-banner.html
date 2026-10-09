@@ -1,0 +1,7 @@
+{%- comment -%} Visible warning when a post still has unverified specs (should normally stay in _drafts/). {%- endcomment -%}
+{%- if page.needs_fact_check -%}
+<aside class="fact-check-banner" role="note">
+  <strong>Specs still being verified.</strong> Some numbers on this page are marked "Not yet verified."
+  Use your owner's manual or a factory service manual for those values.
+</aside>
+{%- endif -%}

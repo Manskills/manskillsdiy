@@ -1,0 +1,10 @@
+{%- comment -%}
+  Short disclosure shown at the TOP of any post with affiliate links (before the first link),
+  and repeated by tools-list.html directly above shop links. FTC guidance: the closer the
+  disclosure is to the recommendation, the better; it must be clear and conspicuous.
+{%- endcomment -%}
+<aside class="disclosure-inline" role="note">
+  <strong>Heads up:</strong> some links below are paid links. If you buy through them we may earn a small commission, at no extra cost to you.
+  {%- if site.affiliates.amazon_enrolled %} As an Amazon Associate I earn from qualifying purchases.{% endif %}
+  <a href="{{ '/affiliate-disclosure/' | relative_url }}">Details</a>.
+</aside>

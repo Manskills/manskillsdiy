@@ -1,0 +1,12 @@
+# Author profiles for _includes/author-box.html (also read by jekyll-seo-tag).
+# Neutral editorial byline. Do not add credentials, testing claims, or personal story
+# unless they are true and the owner approves them.
+manskills:
+  name: "Manskills DIY"
+  role: "Editorial team"
+  bio: >-
+    Manskills DIY publishes plain, step-by-step guides to car maintenance, home repair,
+    and small mechanical fixes. Specs are linked to their sources or clearly marked as
+    not yet verified. Always check your owner's manual for your exact model.
+  image: ""
+  url: /about/

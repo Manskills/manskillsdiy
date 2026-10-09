@@ -1,0 +1,44 @@
+---
+layout: default
+---
+{%- comment -%}
+  Override of minima 2.5.1 home layout.
+  Order: hero (brand promise) → category cards → featured guide → latest guides → trust strip.
+  Mark a post as featured with `featured: true` in its front matter.
+{%- endcomment -%}
+<div class="home">
+
+  <section class="hero">
+    <p class="hero__kicker">Nobody taught me this.</p>
+    <h1 class="hero__title">{{ page.hero_title | default: "Real skills, step by step." }}</h1>
+    <div class="hero__intro">{{ content }}</div>
+    <a class="btn" href="#latest">See the latest guides</a>
+  </section>
+
+  {% include category-cards.html %}
+
+  {%- assign featured = site.posts | where_exp: "p", "p.featured == true" | first -%}
+  {%- if featured -%}
+  <section class="featured">
+    <h2 class="section-title">Start here</h2>
+    {% include post-card.html post=featured %}
+  </section>
+  {%- endif -%}
+
+  <section class="latest" id="latest">
+    <h2 class="section-title">{{ page.list_title | default: "Latest guides" }}</h2>
+    {%- if site.posts.size > 0 -%}
+    <div class="post-grid">
+      {%- for post in site.posts limit: 6 -%}
+        {% include post-card.html post=post %}
+      {%- endfor -%}
+    </div>
+    <p class="rss-subscribe">Follow along <a href="{{ "/feed.xml" | relative_url }}">via RSS</a>.</p>
+    {%- else -%}
+    <p class="empty-state">The first guides are being written and fact-checked. Check back soon.</p>
+    {%- endif -%}
+  </section>
+
+  {% include trust-strip.html %}
+
+</div>

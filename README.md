@@ -2,53 +2,52 @@
 
 Source for **Manskills DIY**, a step-by-step how-to blog covering car maintenance,
 home repair, and small mechanical fixes. Built with [Jekyll](https://jekyllrb.com/)
-and hosted on GitHub Pages (theme: minima).
+on GitHub Pages using the minima theme (with local overrides).
 
-Currently served at <https://manskills.github.io/manskillsdiy/>. When the custom
-domain `manskillsdiy.com` is set up, change `baseurl` in `_config.yml` to `""`.
+Live at <https://manskills.github.io/manskillsdiy/>. When the custom domain
+`manskillsdiy.com` is set up, change `baseurl` in `_config.yml` to `""`.
 
 ## Structure
 
 ```
-_config.yml               Site settings (title, theme, baseurl, plugins, permalinks)
-Gemfile                   github-pages gem for local builds
-index.md                  Home page (intro + latest guides)
-about.md                  About page
-affiliate-disclosure.md   FTC-style affiliate disclosure
+_config.yml               Site settings (theme, baseurl, plugins, affiliates flags, layout defaults)
+_data/navigation.yml      Header menu
+_data/categories.yml      Categories (slug, title, icon, blurb) used by cards, breadcrumbs, category pages
+_data/authors.yml         Author/byline profiles
+_layouts/home.html        Home: hero, category cards, featured guide, latest guides, trust strip
+_layouts/howto.html       How-to post layout (driven by front matter)
+_layouts/category.html    Category landing pages
+_includes/                Header/footer overrides + how-to components (specs table, tools list,
+                          product box, paid-link helper, FAQ, sources, author box, ...)
+assets/main.scss          minima variable overrides + component styles
+car-maintenance/, home-repair/, small-fixes/   Category landing pages
+index.md, about.md, how-we-research.md, affiliate-disclosure.md
 _posts/                   Published guides (YYYY-MM-DD-slug.md)
-_drafts/                  Unpublished guides (slug.md, no date), not built on Pages
+_drafts/                  Unpublished guides (slug.md), not built on Pages
+_templates/howto-post.md  Front-matter template for new guides (excluded from the build)
 assets/images/            Images for posts
 ```
 
-Categories (set in each post's front matter):
+Categories: `car-maintenance`, `home-repair`, `small-fixes`. Permalinks follow
+`/:categories/:title/`.
 
-- `car-maintenance`
-- `home-repair`
-- `small-fixes`
+## Adding a guide
 
-Permalinks follow `/:categories/:title/`, e.g. `/car-maintenance/how-to-change-oil-1991-toyota-corolla/`.
+1. Copy `_templates/howto-post.md` to `_drafts/your-slug.md` and fill in the front matter
+   (specs, tools, materials, safety, faq, sources) and the steps.
+2. Every spec gets `status: verify` until it's confirmed against a cited source; the
+   page shows a "Not yet verified" badge for those rows.
+3. Affiliate URLs stay `AFFILIATE_LINK_PLACEHOLDER` until accounts exist. Placeholders
+   render as plain text / "Link coming soon", never as links. Inline paid links use
+   `{% include aff-link.html text="..." url="..." retailer="Amazon" %}`.
+4. When every spec is verified, set `needs_fact_check: false` and move the file to
+   `_posts/YYYY-MM-DD-your-slug.md`.
 
-## Adding a post
+## Affiliate settings
 
-1. Create `_drafts/your-slug.md` with front matter:
-
-   ```yaml
-   ---
-   title: "How to ..."
-   description: "One-sentence summary for search results."
-   categories: [car-maintenance]   # or home-repair / small-fixes
-   tags: [tag-one, tag-two]
-   needs_fact_check: true
-   ---
-   ```
-
-2. Write it: tools/materials list, safety notes, numbered steps.
-3. Any spec you haven't confirmed (capacities, torque, part numbers, sizes) gets a
-   **[VERIFY: ...]** marker. Put sources for confirmed specs in an HTML comment.
-4. Affiliate links use `AFFILIATE_LINK_PLACEHOLDER` until accounts exist, and
-   every post with affiliate links includes a disclosure line.
-5. When every `[VERIFY: ...]` is resolved, set `needs_fact_check: false` and move
-   the file to `_posts/YYYY-MM-DD-your-slug.md` to publish.
+`_config.yml` → `affiliates.amazon_enrolled` stays `false` until the Amazon Associates
+account is approved. Setting it to `true` shows the required statement
+"As an Amazon Associate I earn from qualifying purchases."
 
 ## Local preview (optional)
 

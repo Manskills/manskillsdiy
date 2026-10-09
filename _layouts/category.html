@@ -1,0 +1,23 @@
+---
+layout: default
+---
+{%- comment -%}
+  Category landing page. Each category page sets `category: car-maintenance` (matching
+  _data/categories.yml). Works with GitHub Pages: no jekyll-archives plugin needed.
+{%- endcomment -%}
+{%- assign cat = site.data.categories | where: "slug", page.category | first -%}
+<div class="category-page">
+  <header class="category-page__header">
+    <h1 class="page-heading">{{ cat.icon }} {{ cat.title | default: page.title }}</h1>
+    <p class="category-page__blurb">{{ cat.blurb }}</p>
+    {{ content }}
+  </header>
+  {%- assign posts = site.categories[page.category] -%}
+  {%- if posts and posts.size > 0 -%}
+  <div class="post-grid">
+    {%- for post in posts -%}{% include post-card.html post=post %}{%- endfor -%}
+  </div>
+  {%- else -%}
+  <p class="empty-state">Guides for this category are being written and fact-checked. Check back soon.</p>
+  {%- endif -%}
+</div>

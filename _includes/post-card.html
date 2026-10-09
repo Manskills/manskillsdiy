@@ -1,0 +1,15 @@
+{%- comment -%} Card used on home + category pages. Usage: {% include post-card.html post=post %} {%- endcomment -%}
+{%- assign p = include.post -%}
+{%- assign cat = site.data.categories | where: "slug", p.categories[0] | first -%}
+<article class="post-card">
+  {%- if p.image %}<a href="{{ p.url | relative_url }}"><img class="post-card__img" src="{{ p.image | relative_url }}" alt="" loading="lazy"></a>{% endif -%}
+  <div class="post-card__body">
+    {%- if cat %}<a class="post-card__cat" href="{{ cat.slug | prepend: '/' | append: '/' | relative_url }}">{{ cat.title }}</a>{% endif -%}
+    <h3 class="post-card__title"><a href="{{ p.url | relative_url }}">{{ p.title | escape }}</a></h3>
+    {%- if p.description %}<p class="post-card__desc">{{ p.description | escape }}</p>{% endif -%}
+    <p class="post-card__meta">
+      {%- if p.difficulty %}{{ p.difficulty }} · {% endif -%}{%- if p.time %}{{ p.time }} · {% endif -%}
+      {{ p.last_updated | default: p.date | date: "%b %-d, %Y" }}
+    </p>
+  </div>
+</article>

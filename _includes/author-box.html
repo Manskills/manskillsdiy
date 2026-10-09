@@ -1,0 +1,25 @@
+{%- comment -%}
+  Byline (top) or bio box (bottom). Usage:
+    {% include author-box.html style="byline" %}  /  {% include author-box.html %}
+  Data: _data/authors.yml keyed by page.author; optional page.reviewed_by (another key).
+  Only show "Reviewed by" if a real person with real credentials reviewed the post.
+{%- endcomment -%}
+{%- assign a = site.data.authors[page.author] -%}
+{%- assign r = site.data.authors[page.reviewed_by] -%}
+{%- assign fmt = site.minima.date_format | default: "%b %-d, %Y" -%}
+{%- if include.style == "byline" -%}
+<p class="byline">
+  By <a href="{{ a.url | default: '/about/' | relative_url }}">{{ a.name | default: page.author }}</a>
+  {%- if r %} · Reviewed by {{ r.name }}{% if r.credentials %}, {{ r.credentials }}{% endif %}{% endif %}
+  · {% if page.last_updated %}Updated <time datetime="{{ page.last_updated | date_to_xmlschema }}">{{ page.last_updated | date: fmt }}</time>{% else %}Published <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: fmt }}</time>{% endif %}
+  · <a href="{{ '/how-we-research/' | relative_url }}">How we fact-check</a>
+</p>
+{%- elsif a -%}
+<aside class="author-box">
+  {%- if a.image and a.image != "" %}<img class="author-box__img" src="{{ a.image | relative_url }}" alt="{{ a.name }}" loading="lazy">{% endif -%}
+  <div>
+    <p class="author-box__name">{{ a.name }}{% if a.role %} <span class="author-box__role">· {{ a.role }}</span>{% endif %}</p>
+    <p class="author-box__bio">{{ a.bio }}</p>
+  </div>
+</aside>
+{%- endif -%}

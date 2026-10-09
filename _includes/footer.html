@@ -1,0 +1,31 @@
+{%- comment -%} Override of minima 2.5.1 footer: adds disclosure + trust links. {%- endcomment -%}
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <p class="footer-heading"><strong>{{ site.title | escape }}</strong></p>
+        <p>{{ site.description | escape }}</p>
+      </div>
+      <div class="footer-col footer-col-2">
+        <ul class="footer-links">
+          {%- for c in site.data.categories -%}
+          <li><a href="{{ c.slug | prepend: '/' | append: '/' | relative_url }}">{{ c.title }}</a></li>
+          {%- endfor -%}
+        </ul>
+      </div>
+      <div class="footer-col footer-col-3">
+        <ul class="footer-links">
+          <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+          <li><a href="{{ '/how-we-research/' | relative_url }}">How we research &amp; fact-check</a></li>
+          <li><a href="{{ '/affiliate-disclosure/' | relative_url }}">Affiliate disclosure</a></li>
+          <li><a href="{{ '/feed.xml' | relative_url }}">RSS</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer-disclosure">
+      Some links on this site are affiliate (paid) links: we may earn a commission at no extra cost to you.
+      {%- if site.affiliates.amazon_enrolled %} As an Amazon Associate I earn from qualifying purchases.{% endif %}
+    </p>
+  </div>
+</footer>

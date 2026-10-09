@@ -1,0 +1,13 @@
+# One entry per post category. slug must match the `categories:` value used in posts.
+- slug: car-maintenance
+  title: "Car Maintenance"
+  icon: "🔧"
+  blurb: "Oil changes, filters, brakes, batteries, and the checks every driver should know."
+- slug: home-repair
+  title: "Home Repair"
+  icon: "🏠"
+  blurb: "Plumbing, drywall, doors, and fixtures: fix what breaks without calling someone."
+- slug: small-fixes
+  title: "Small Fixes"
+  icon: "🪛"
+  blurb: "Mowers, small engines, tools, and other mechanical odds and ends."

@@ -1,0 +1,35 @@
+{%- comment -%}
+  Renders "What you'll need" from front matter:
+    tools:      [{ name: "Jack stands (pair)", url: "AFFILIATE_LINK_PLACEHOLDER", retailer: "Amazon", note: "rated for your car" }]
+    materials:  [{ name: "Oil filter", note: "[VERIFY: part number]" }]
+  Items without a url render as plain text.
+{%- endcomment -%}
+{%- assign has_links = false -%}
+{%- for t in page.tools -%}{%- if t.url and t.url != "" -%}{%- assign has_links = true -%}{%- endif -%}{%- endfor -%}
+{%- for t in page.materials -%}{%- if t.url and t.url != "" -%}{%- assign has_links = true -%}{%- endif -%}{%- endfor -%}
+<section class="tools-list" id="tools">
+  <h2>What you'll need</h2>
+  {%- if has_links -%}<p class="tools-list__disclosure">Some items below are paid links; we may earn a commission at no cost to you.</p>{%- endif -%}
+  <div class="tools-list__cols">
+    {%- if page.tools -%}
+    <div>
+      <h3>Tools</h3>
+      <ul>
+        {%- for t in page.tools -%}
+        <li>{%- if t.url and t.url != "" -%}{% include aff-link.html text=t.name url=t.url retailer=t.retailer %}{%- else -%}{{ t.name }}{%- endif -%}{% if t.note %} <span class="tools-list__note">({{ t.note | markdownify | remove: '<p>' | remove: '</p>' | strip }})</span>{% endif %}</li>
+        {%- endfor -%}
+      </ul>
+    </div>
+    {%- endif -%}
+    {%- if page.materials -%}
+    <div>
+      <h3>Materials</h3>
+      <ul>
+        {%- for m in page.materials -%}
+        <li>{%- if m.url and m.url != "" -%}{% include aff-link.html text=m.name url=m.url retailer=m.retailer %}{%- else -%}{{ m.name }}{%- endif -%}{% if m.note %} <span class="tools-list__note">({{ m.note | markdownify | remove: '<p>' | remove: '</p>' | strip }})</span>{% endif %}</li>
+        {%- endfor -%}
+      </ul>
+    </div>
+    {%- endif -%}
+  </div>
+</section>

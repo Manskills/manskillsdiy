@@ -1,0 +1,14 @@
+{%- comment -%}
+  Safety callout from front matter `safety:` (list of markdown strings).
+  Rendered BEFORE the steps (Bob Vila how-tos put "Safety Precautions" before tools/steps).
+{%- endcomment -%}
+{%- if page.safety -%}
+<section class="safety" id="safety" role="note" aria-label="Safety">
+  <h2>⚠️ Safety first</h2>
+  <ul>
+    {%- for s in page.safety -%}
+    <li>{{ s | markdownify | remove: '<p>' | remove: '</p>' | strip }}</li>
+    {%- endfor -%}
+  </ul>
+</section>
+{%- endif -%}

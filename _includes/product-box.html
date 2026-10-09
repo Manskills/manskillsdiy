@@ -1,0 +1,41 @@
+{%- comment -%}
+  Product recommendation box.
+  Usage (from front matter list):
+    {% for p in page.products %}{% include product-box.html product=p %}{% endfor %}
+  or inline:
+    {% include product-box.html name="..." why="..." url="AFFILIATE_LINK_PLACEHOLDER" retailer="Amazon" %}
+
+  Amazon Associates rules reflected here (see report §4):
+   - NO hard-coded price field: prices may only be shown if served by Amazon or pulled via
+     Creators API / PA API with timestamp + disclaimer. Button says "Check price at <retailer>".
+   - Button text names the retailer so it's clear the link goes to Amazon.
+   - No Amazon star ratings / customer review counts (API-only).
+   - Product images: use your OWN photos (assets/images/), not images copied from Amazon.
+{%- endcomment -%}
+{%- assign p = include.product -%}
+{%- assign name     = p.name     | default: include.name -%}
+{%- assign why      = p.why      | default: include.why -%}
+{%- assign url      = p.url      | default: include.url | default: "" -%}
+{%- assign retailer = p.retailer | default: include.retailer | default: "Amazon" -%}
+{%- assign label    = p.label    | default: include.label -%}
+{%- assign image    = p.image    | default: include.image -%}
+{%- assign specs    = p.specs    | default: include.specs -%}
+<div class="product-box">
+  {%- if label %}<span class="product-box__label">{{ label }}</span>{% endif -%}
+  <div class="product-box__body">
+    {%- if image %}<img class="product-box__img" src="{{ image | relative_url }}" alt="{{ name | escape }}" loading="lazy">{% endif -%}
+    <div class="product-box__text">
+      <p class="product-box__name">{{ name }}</p>
+      {%- if why %}<p class="product-box__why">{{ why | markdownify | remove: '<p>' | remove: '</p>' }}</p>{% endif -%}
+      {%- if specs %}<ul class="product-box__specs">{% for s in specs %}<li>{{ s }}</li>{% endfor %}</ul>{% endif -%}
+    </div>
+  </div>
+  <div class="product-box__cta">
+    {%- if url == "" or url contains "PLACEHOLDER" -%}
+      <span class="btn btn--pending">Link coming soon</span><!-- AFFILIATE LINK PENDING: {{ name }} -->
+    {%- else -%}
+      <a class="btn" href="{{ url }}" rel="{{ site.affiliates.rel | default: 'sponsored nofollow noopener' }}" target="_blank">Check price at {{ retailer }}</a>
+      <span class="paid-label">Paid link</span>
+    {%- endif -%}
+  </div>
+</div>
