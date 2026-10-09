@@ -110,7 +110,7 @@ sources:
   Capacity 15-20 fl oz: third-party chart only -> left as VERIFY.
   Small-engine oil (fetched 2026-10-09): Do it Best own-brand 48 oz SAE 30 $14.99 https://www.doitbest.com/product/759321/do-it-best-48-oz-sae-30-4-cycle-engine-oil-759321/ ,
     Briggs & Stratton 30W 48 oz $14.49 https://www.doitbest.com/product/758932/briggs-stratton-30w-48-oz-4-cycle-motor-oil-758932/ ;
-    Meijer search https://www.meijer.com/shopping/search.html?text=lawn%20mower%20blade%20balancer : MaxPower 4 Cycle SAE 30 48 oz $10.99.
+    Meijer MaxPower 4 Cycle SAE 30 48 oz $10.99 https://www.meijer.com/shopping/product/maxpower-4-cycle-sae-30-oil-48-oz-/84454700502.html (re-checked 2026-10-09).
 -->
 
 **Nobody taught me this.** A push mower's oil change is the easiest engine maintenance there is,
@@ -122,7 +122,7 @@ and skipping it is the fastest way to kill the mower. Here's how to do it withou
    operator's manual.
 
    ![Close-up of a walk-behind lawn mower's small engine]({{ '/assets/images/how-to-change-lawn-mower-oil/step01-mower-engine.jpg' | relative_url }}){: loading="lazy"}
-   <small class="photo-credit">Photo: [Shixart1985](https://commons.wikimedia.org/wiki/File:Vintage_lawn_mower_motor_engine_closeup.jpg), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), via Wikimedia Commons; resized.</small>
+   <small class="photo-credit">Photo: [Nenad Stojković (Shixart1985)](https://commons.wikimedia.org/wiki/File:Vintage_lawn_mower_motor_engine_closeup.jpg), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), via Wikimedia Commons; resized.</small>
 
 2. **Run the mower a few minutes** to warm the oil so it drains better, then shut it off and let
    the muffler cool enough to handle.
@@ -141,10 +141,7 @@ and skipping it is the fastest way to kill the mower. Here's how to do it withou
    manual before you start the engine.
 8. **Add new oil slowly** through the fill tube with a funnel. Stop short of the full capacity. {% comment %}SHOT LIST (original photo needed): Funnel in the fill tube, small bottle of SAE 30/10W-30, pouring in a thin stream.{% endcomment %}
 9. **Check the dipstick** the way your manual says (some are screwed in, some just rest on the tube).
-   Add a little at a time until it reaches the full mark. Don't overfill.
-
-   ![Walk-behind mower engine with its yellow-capped oil fill tube and dipstick visible at the front]({{ '/assets/images/how-to-change-lawn-mower-oil/step09-mower-engine-dipstick-cap.jpg' | relative_url }}){: loading="lazy"}
-   <small class="photo-credit">Photo: [Shixart1985](https://commons.wikimedia.org/wiki/File:Man_starting_a_lawn_mower_in_a_green_garden.jpg), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), via Wikimedia Commons; resized.</small>
+   Add a little at a time until it reaches the full mark. Don't overfill. {% comment %}SHOT LIST (original photo needed): Close-up of a mower dipstick pulled and held level, oil film between the ADD and FULL marks, spark plug wire visibly disconnected.{% endcomment %}
 
 10. **Replace the dipstick,** remove the sandwich bag from the gas tank, and reconnect the spark plug wire.
 11. **Start it and check for leaks.** A little smoke at first can be spilled oil burning off.

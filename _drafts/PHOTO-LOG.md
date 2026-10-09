@@ -91,9 +91,9 @@ Compiled 2026-10-09 (America/New_York). Every license below was read on the actu
 
 ### Step hero: `assets/images/how-to-check-and-add-engine-oil/hero-checking-oil-dipstick.jpg` (1068x1600, 115 KB)
 - **Source:** https://commons.wikimedia.org/wiki/File:Person_checking_engine_oil_level_in_a_car_hood_at_home_in_daylight.jpg
-- **Author:** Shixart1985
+- **Author:** Nenad Stojković (Shixart1985) (name from the file's EXIF author/credit fields, per Mechanic batch 2)
 - **License:** CC BY 2.0 — https://creativecommons.org/licenses/by/2.0/
-- **Required attribution:** "Person checking engine oil level in a car hood at home in daylight.jpg" by Shixart1985, CC BY 2.0 (https://creativecommons.org/licenses/by/2.0/), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Person_checking_engine_oil_level_in_a_car_hood_at_home_in_daylight.jpg). Resized/re-encoded for web.
+- **Required attribution:** "Person checking engine oil level in a car hood at home in daylight.jpg" by Nenad Stojković (Shixart1985), CC BY 2.0 (https://creativecommons.org/licenses/by/2.0/), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Person_checking_engine_oil_level_in_a_car_hood_at_home_in_daylight.jpg). Resized/re-encoded for web.
 - **Shows (alt text):** Person reaching into an open engine bay to pull the oil dipstick
 
 ### Step 3: `assets/images/how-to-check-and-add-engine-oil/step03-orange-dipstick-handle.jpg` (1600x1067, 205 KB)
@@ -160,16 +160,17 @@ Compiled 2026-10-09 (America/New_York). Every license below was read on the actu
 ### Step 4: `assets/images/how-to-jump-start-a-car/step04-red-clamp-on-positive.jpg` (640x439, 67 KB)
 - **Source:** https://commons.wikimedia.org/wiki/File:CrocodileClamponBattery.jpg
 - **Author:** Wtshymanski (English Wikipedia)
-- **License:** Public domain (see file page for the specific PD rationale)
+- **License:** Public domain: released into the public domain by its author, Wtshymanski at English Wikipedia; applies worldwide
 - **Required attribution:** "CrocodileClamponBattery.jpg" by Wtshymanski (English Wikipedia), public domain, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:CrocodileClamponBattery.jpg). Attribution not legally required; credit given as courtesy.
 - **Shows (alt text):** Red jumper cable clamp attached to the positive terminal of a car battery
 
-### Step 13: `assets/images/how-to-jump-start-a-car/step13-battery-voltage-check.jpg` (1600x1068, 303 KB)
-- **Source:** https://commons.wikimedia.org/wiki/File:Auto_mechanic_checking_old_car_battery_voltage.jpg
-- **Author:** Shixart1985
-- **License:** CC BY 2.0 — https://creativecommons.org/licenses/by/2.0/
-- **Required attribution:** "Auto mechanic checking old car battery voltage.jpg" by Shixart1985, CC BY 2.0 (https://creativecommons.org/licenses/by/2.0/), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Auto_mechanic_checking_old_car_battery_voltage.jpg). Resized/re-encoded for web.
-- **Shows (alt text):** Mechanic in gloves checking a car battery with a meter under the hood
+### Step 13: `assets/images/how-to-jump-start-a-car/step13-battery-tester.jpg` (1600x1066, 189 KB) (replaced 2026-10-09, batch-2 fix)
+- **Source:** https://commons.wikimedia.org/wiki/File:Winter_Vehicle_inspections_at_Spangdahlem_AB_(7476699).jpg (original: DVIDS https://www.dvidshub.net/image/7476699)
+- **Author:** U.S. Air Force photo by Airman 1st Class Imani West (VIRIN 221021-F-HO957-1051)
+- **License:** Public domain (work of the U.S. federal government; Commons tag PD-USGov-Military-Air Force), verified on the Commons file page 2026-10-09
+- **Required attribution:** None legally required. Credit given as courtesy: "U.S. Air Force photo by Airman 1st Class Imani West, public domain, via Wikimedia Commons". Resized/re-encoded for web.
+- **Shows (alt text):** Technician in gloves using a handheld battery tester on a car with the hood open
+- **Replaced:** step13-battery-voltage-check.jpg (Nenad Stojković (Shixart1985), CC BY 2.0) removed: it showed a charger/tester box on a Mercedes W123 air-cleaner housing, not a battery test (Mechanic batch 2).
 
 ### Step Step-by-step #3 (Find the terminals): SHOT LIST
 - **Original photo needed:** Top-down shot of a typical 12 V battery with the red (+) cover flipped open and the (−) terminal clearly visible; add text labels in post. Clean terminals, gloves on hand in frame.
@@ -224,7 +225,8 @@ Compiled 2026-10-09 (America/New_York). Every license below was read on the actu
 - **Author:** PtrQs
 - **License:** CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
 - **Required attribution:** "20170312 TyreRotationDirection VW RLine DSCN6983 PtrQs.jpg" by PtrQs, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:20170312_TyreRotationDirection_VW_RLine_DSCN6983_PtrQs.jpg). Resized/re-encoded for web.
-- **Shows (alt text):** Front wheel of a car with a directional tire; the rotation arrow on the sidewall shows rolling direction
+- **Shows (alt text):** Side view of a car's front wheel and tire. On a directional tire, look for an arrow or the word ROTATION on the sidewall
+- **Note (2026-10-09):** re-captioned. The arrow isn't legible in this photo (Mechanic batch 2), so the alt text no longer claims it is shown.
 
 ### Step p2-4: `assets/images/how-to-check-tire-pressure-and-rotate-tires/p2-step04-breaking-lug-nuts-loose.jpg` (1600x1200, 202 KB)
 - **Source:** https://commons.wikimedia.org/wiki/File:Cambiando_llanta.jpg
@@ -233,12 +235,8 @@ Compiled 2026-10-09 (America/New_York). Every license below was read on the actu
 - **Required attribution:** "Cambiando llanta.jpg" by Wilfredor, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Cambiando_llanta.jpg). Resized/re-encoded for web.
 - **Shows (alt text):** Man using a lug wrench to loosen lug nuts on a car wheel with the tire on the ground
 
-### Step p2-6: `assets/images/how-to-check-tire-pressure-and-rotate-tires/p2-step06-wheel-removed.jpg` (1068x1600, 285 KB)
-- **Source:** https://commons.wikimedia.org/wiki/File:Car_without_a_wheel_in_a_workshop._Portable_light_on_the_ground.jpg
-- **Author:** Shixart1985
-- **License:** CC BY 2.0 — https://creativecommons.org/licenses/by/2.0/
-- **Required attribution:** "Car without a wheel in a workshop. Portable light on the ground.jpg" by Shixart1985, CC BY 2.0 (https://creativecommons.org/licenses/by/2.0/), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Car_without_a_wheel_in_a_workshop._Portable_light_on_the_ground.jpg). Resized/re-encoded for web.
-- **Shows (alt text):** Car in a garage with one wheel removed, showing the bare hub and brake
+### Step p2-6: REMOVED 2026-10-09 (batch-2 fix)
+- p2-step06-wheel-removed.jpg (Nenad Stojković (Shixart1985), CC BY 2.0, https://commons.wikimedia.org/wiki/File:Car_without_a_wheel_in_a_workshop._Portable_light_on_the_ground.jpg) was dropped: car held up on a floor jack with no jack stand visible (unsafe). No safe, correctly licensed replacement found on Commons (searched "jack stand", "axle stands under car", "jackstand"; results were race cars or kit-car builds). The step-5 SHOT LIST (floor jack plus two stands) covers the original photo needed.
 
 ### Step p2-9: `assets/images/how-to-check-tire-pressure-and-rotate-tires/p2-step09-click-torque-wrench.jpg` (1000x602, 60 KB)
 - **Source:** https://commons.wikimedia.org/wiki/File:Torque_wrench_20-220_Nm.jpg
@@ -277,9 +275,9 @@ Compiled 2026-10-09 (America/New_York). Every license below was read on the actu
 
 ### Step hero: `assets/images/how-to-replace-windshield-wiper-blades/hero-wiper-arm-raised.jpg` (1068x1600, 111 KB)
 - **Source:** https://commons.wikimedia.org/wiki/File:Car_windshield_wiper_displayed.jpg
-- **Author:** Shixart1985
+- **Author:** Nenad Stojković (Shixart1985) (name from the file's EXIF author/credit fields, per Mechanic batch 2)
 - **License:** CC BY 2.0 — https://creativecommons.org/licenses/by/2.0/
-- **Required attribution:** "Car windshield wiper displayed.jpg" by Shixart1985, CC BY 2.0 (https://creativecommons.org/licenses/by/2.0/), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Car_windshield_wiper_displayed.jpg). Resized/re-encoded for web.
+- **Required attribution:** "Car windshield wiper displayed.jpg" by Nenad Stojković (Shixart1985), CC BY 2.0 (https://creativecommons.org/licenses/by/2.0/), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Car_windshield_wiper_displayed.jpg). Resized/re-encoded for web.
 - **Shows (alt text):** Car windshield wiper arm raised upright off the glass
 
 ### Step 1: `assets/images/how-to-replace-windshield-wiper-blades/step01-worn-wiper-blade-edge.jpg` (1600x810, 186 KB)
@@ -378,12 +376,13 @@ Compiled 2026-10-09 (America/New_York). Every license below was read on the actu
 - **Required attribution:** "Patching a hole in the drywall - part ii" by Ken Dyck, CC BY 2.0 (https://creativecommons.org/licenses/by/2.0/), via Flickr (https://www.flickr.com/photos/46126365@N00/291046189/). Resized/re-encoded for web.
 - **Shows (alt text):** New square of drywall screwed into a cut-out hole in a wall, ready for tape and compound
 
-### Step small-1: `assets/images/how-to-patch-a-hole-in-drywall/small-step01-putty-knife.jpg` (1418x414, 68 KB)
-- **Source:** https://commons.wikimedia.org/wiki/File:PuttyKnife.JPG
-- **Author:** Simon Speed
-- **License:** CC0 1.0 Universal Public Domain Dedication — https://creativecommons.org/publicdomain/zero/1.0/
-- **Required attribution:** "PuttyKnife.JPG" by Simon Speed, CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:PuttyKnife.JPG). Attribution not required; credit given as courtesy.
-- **Shows (alt text):** A plain metal putty knife
+### Step small-1: `assets/images/how-to-patch-a-hole-in-drywall/small-step01-putty-knife.jpg` (1600x700, 77 KB) (replaced 2026-10-09, batch-2 fix)
+- **Source:** https://commons.wikimedia.org/wiki/File:Putty_Knife_(8559730739).jpg (original: Flickr https://www.flickr.com/photos/86639298@N02/8559730739/)
+- **Author:** HomeSpot HQ (http://www.homespothq.com/)
+- **License:** CC BY 2.0 — https://creativecommons.org/licenses/by/2.0/ (Commons FlickreviewR passed 2024-11-17; checked on the file page 2026-10-09)
+- **Required attribution:** "Putty Knife" by HomeSpot HQ, CC BY 2.0, via Wikimedia Commons, with a link to http://www.homespothq.com/ as the author asks. Resized/re-encoded for web.
+- **Shows (alt text):** A flat putty knife with a straight steel blade
+- **Replaced:** PuttyKnife.JPG (Simon Speed, CC0) removed: it showed a rusty, pointed glazier's/palette knife, not a flat putty knife (Mechanic batch 2).
 
 ### Step medium-2: `assets/images/how-to-patch-a-hole-in-drywall/medium-step02-joint-compound-coat.jpg` (1036x720, 57 KB)
 - **Source:** https://commons.wikimedia.org/wiki/File:Kitchen_renovation_spackling_to_cover_holes_and_tape_between_sheetrock_boards.JPG
@@ -439,17 +438,13 @@ Compiled 2026-10-09 (America/New_York). Every license below was read on the actu
 
 ### Step 1: `assets/images/how-to-change-lawn-mower-oil/step01-mower-engine.jpg` (1068x1600, 183 KB)
 - **Source:** https://commons.wikimedia.org/wiki/File:Vintage_lawn_mower_motor_engine_closeup.jpg
-- **Author:** Shixart1985
+- **Author:** Nenad Stojković (Shixart1985) (name from the file's EXIF author/credit fields, per Mechanic batch 2)
 - **License:** CC BY 2.0 — https://creativecommons.org/licenses/by/2.0/
-- **Required attribution:** "Vintage lawn mower motor engine closeup.jpg" by Shixart1985, CC BY 2.0 (https://creativecommons.org/licenses/by/2.0/), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Vintage_lawn_mower_motor_engine_closeup.jpg). Resized/re-encoded for web.
+- **Required attribution:** "Vintage lawn mower motor engine closeup.jpg" by Nenad Stojković (Shixart1985), CC BY 2.0 (https://creativecommons.org/licenses/by/2.0/), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Vintage_lawn_mower_motor_engine_closeup.jpg). Resized/re-encoded for web.
 - **Shows (alt text):** Close-up of a walk-behind lawn mower's small engine
 
-### Step 9: `assets/images/how-to-change-lawn-mower-oil/step09-mower-engine-dipstick-cap.jpg` (1600x1064, 207 KB)
-- **Source:** https://commons.wikimedia.org/wiki/File:Man_starting_a_lawn_mower_in_a_green_garden.jpg
-- **Author:** Shixart1985
-- **License:** CC BY 2.0 — https://creativecommons.org/licenses/by/2.0/
-- **Required attribution:** "Man starting a lawn mower in a green garden.jpg" by Shixart1985, CC BY 2.0 (https://creativecommons.org/licenses/by/2.0/), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Man_starting_a_lawn_mower_in_a_green_garden.jpg). Resized/re-encoded for web.
-- **Shows (alt text):** Walk-behind mower engine with its yellow-capped oil fill tube and dipstick visible at the front
+### Step 9: REMOVED 2026-10-09 (batch-2 fix)
+- step09-mower-engine-dipstick-cap.jpg (Nenad Stojković (Shixart1985), CC BY 2.0, https://commons.wikimedia.org/wiki/File:Man_starting_a_lawn_mower_in_a_green_garden.jpg) was dropped: it shows the mower being started, not a dipstick check. No correctly licensed mower-dipstick close-up found on Commons (searched "lawn mower dipstick", "small engine dipstick", "lawn mower oil check"). A SHOT LIST comment was added at step 9 instead.
 
 ### Step Step-by-step #3 (Disconnect the spark plug wire): SHOT LIST
 - **Original photo needed:** Hand pulling the rubber boot straight off the spark plug, wire tucked away from the plug.
@@ -574,9 +569,9 @@ Compiled 2026-10-09 (America/New_York). Every license below was read on the actu
 
 ### Step hero: `assets/images/how-to-winterize-an-outdoor-faucet/hero-outdoor-faucet-in-snow.jpg` (1068x1600, 171 KB)
 - **Source:** https://commons.wikimedia.org/wiki/File:Water_faucet_next_to_a_bucket_in_a_snowy_yard_during_winter.jpg
-- **Author:** Shixart1985
+- **Author:** Nenad Stojković (Shixart1985) (name from the file's EXIF author/credit fields, per Mechanic batch 2)
 - **License:** CC BY 2.0 — https://creativecommons.org/licenses/by/2.0/
-- **Required attribution:** "Water faucet next to a bucket in a snowy yard during winter.jpg" by Shixart1985, CC BY 2.0 (https://creativecommons.org/licenses/by/2.0/), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Water_faucet_next_to_a_bucket_in_a_snowy_yard_during_winter.jpg). Resized/re-encoded for web.
+- **Required attribution:** "Water faucet next to a bucket in a snowy yard during winter.jpg" by Nenad Stojković (Shixart1985), CC BY 2.0 (https://creativecommons.org/licenses/by/2.0/), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Water_faucet_next_to_a_bucket_in_a_snowy_yard_during_winter.jpg). Resized/re-encoded for web.
 - **Shows (alt text):** Outdoor water faucet in a snowy yard next to a bucket of ice
 
 ### Step 1: `assets/images/how-to-winterize-an-outdoor-faucet/step01-hose-bib-with-hose.jpg` (1600x862, 266 KB)

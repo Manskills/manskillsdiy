@@ -11,7 +11,7 @@ last_updated: 2026-10-09
 featured: false
 difficulty: "Beginner"
 time: "10–15 minutes"
-cost: "Jumper (booster) cables about $11.99–$44.99 depending on length and gauge (Meijer, Do it Best; prices checked Oct 9, 2026). Jump pack: [VERIFY: price range from 2 retailers]"
+cost: "Jumper (booster) cables about $11.99–$44.99 depending on length and gauge (Meijer, Do it Best; prices checked Oct 9, 2026). Portable jump pack about $84.99–$149.99 (Meijer, Do it Best; prices checked Oct 9, 2026)"
 applies_to: "Most cars and light trucks with a 12-volt battery. Hybrids, EVs, and cars with remote jump points: follow the owner's manual."
 needs_fact_check: true
 image: /assets/images/how-to-jump-start-a-car/hero-two-cars-jump-start.jpg
@@ -102,7 +102,9 @@ sources:
   Hydrogen gas / ground away from battery: AAA Northeast magazine (same procedure).
   Cable prices (fetched 2026-10-09): Do it Best Road Power 16 ft 6-ga $34.99 https://www.doitbest.com/product/580605/road-power-16-6-gauge-booster-cable-580605/ ,
     Southwire 16 ft 6-ga $44.99 https://www.doitbest.com/product/599012/ ; Meijer search https://www.meijer.com/shopping/search.html?text=booster%20cables : Justin Case 12 ft 10-ga $11.99,
-    12 ft 8-ga $21.99, 20 ft 4-ga $43.99. Jump pack: only Meijer seen (Schumacher 1000A $118.99) -> left [VERIFY].
+    12 ft 8-ga $21.99, 20 ft 4-ga $43.99. Jump pack (fetched 2026-10-09): Meijer search https://www.meijer.com/shopping/search.html?text=jump%20starter : Bullseye rechargeable $99.99,
+    Schumacher 1000A $118.99; Do it Best search https://www.doitbest.com/search/?search_query=jump+starter : Nebo Assist 1000A $84.99,
+    Schumacher 4-in-1 $92.99, Bullseye 1000A $99.99, Schumacher 1200A $109.99, Nebo Assist Air 1500A $149.99 (pro Milwaukee M18 $299.99 excluded).
 -->
 
 **Nobody taught me this.** A dead battery is the most common way to get stranded, and jump
@@ -142,8 +144,8 @@ starting a car takes about 15 minutes once you know the clamp order. Here's the 
 13. **Get the battery tested.** A jump only gets you going. Most auto parts stores can test the
     battery and charging system.
 
-   ![Mechanic in gloves checking a car battery with a meter under the hood]({{ '/assets/images/how-to-jump-start-a-car/step13-battery-voltage-check.jpg' | relative_url }}){: loading="lazy"}
-   <small class="photo-credit">Photo: [Shixart1985](https://commons.wikimedia.org/wiki/File:Auto_mechanic_checking_old_car_battery_voltage.jpg), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), via Wikimedia Commons; resized.</small>
+   ![Technician in gloves using a handheld battery tester on a car with the hood open]({{ '/assets/images/how-to-jump-start-a-car/step13-battery-tester.jpg' | relative_url }}){: loading="lazy"}
+   <small class="photo-credit">Photo: U.S. Air Force photo by Airman 1st Class Imani West, [public domain](https://commons.wikimedia.org/wiki/File:Winter_Vehicle_inspections_at_Spangdahlem_AB_(7476699).jpg), via Wikimedia Commons; resized.</small>
 
 ## Common mistakes
 

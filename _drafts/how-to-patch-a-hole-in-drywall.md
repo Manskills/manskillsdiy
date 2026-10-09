@@ -11,7 +11,7 @@ last_updated: 2026-10-09
 featured: false
 difficulty: "Beginner"
 time: "30–60 minutes of work, plus drying time between coats (often overnight)"
-cost: "[VERIFY: typical cost of spackle and a patch kit]"
+cost: "Lightweight spackle about $5.19–$10.49 (half pint to pint); drywall patch about $3.99 for a single self-adhesive patch to $18.99 for a complete repair kit (Meijer, Do it Best; prices checked Oct 9, 2026)"
 applies_to: "Painted drywall (gypsum board) walls. Plaster walls need a different approach."
 needs_fact_check: true
 image: /assets/images/how-to-patch-a-hole-in-drywall/hero-drywall-patch-piece-installed.jpg
@@ -70,6 +70,7 @@ materials:
 safety:
   - "**Check for wires and pipes before cutting.** Shut off the circuit breaker for that wall area if you're cutting near outlets or switches, and cut shallow. Look inside the hole with a flashlight first."
   - "**Wear a dust mask and safety glasses when sanding.** Drywall dust is fine and irritating."
+  - "**Garage-to-house walls and ceilings are fire separations.** Patch them with the same board type that's there (Type X if that's what you find), screw it to backing, and tape and mud the seams. Don't leave a mesh or metal patch or an open hole in a fire separation."
   - "**Older homes:** the US banned lead-based paint for homes in 1978, so paint in a home built before 1978 may contain lead. Test before you sand. See the [EPA lead renovation guidance](https://www.epa.gov/lead/lead-renovation-repair-and-painting-program)."
 
 products:
@@ -109,7 +110,12 @@ sources:
   Lead: EPA RRP page https://www.epa.gov/lead/lead-renovation-repair-and-painting-program (fetched 2026-10-09):
     1978 federal ban on consumer use of lead paint in housing.
   Dry time: NOT verified (per product).
-  Cost: only Do it Best was fetchable for spackle/patch kits; second retailer not fetched -> left [VERIFY].
+  Cost (fetched 2026-10-09): Meijer search https://www.meijer.com/shopping/search.html?text=spackle : Red Devil Onetime Light 1 pt $5.19,
+    DAP Fast 'N Final lightweight 1/2 pint $6.99; Do it Best search https://www.doitbest.com/search/?search_query=spackling : Red Devil Onetime
+    1/2 pt lightweight $5.49, DAP Fast 'N Final 1 pt $10.49. Patches: Meijer https://www.meijer.com/shopping/search.html?text=drywall%20patch :
+    Onetime 4x4 in patch $3.99, DAP Drydex repair kit $15.99; Do it Best https://www.doitbest.com/search/?search_query=drywall+patch+kit :
+    FibaTape kit $13.49, Gorilla kit $16.99, Henry Patch & Go kit $18.99.
+  Fire-separation patch note: Manskills Mechanic batch-2 suggestion, based on IRC R302.6 (UpCodes, fetched 2026-10-09).
 -->
 
 **Nobody taught me this.** Every house gets holes in the walls: nail holes, anchors that pulled
@@ -127,8 +133,8 @@ out, a doorknob that went through. Here's how to patch each size so it disappear
 
 1. **Overfill with spackle** using a putty knife; it shrinks as it dries.
 
-   ![A plain metal putty knife]({{ '/assets/images/how-to-patch-a-hole-in-drywall/small-step01-putty-knife.jpg' | relative_url }}){: loading="lazy"}
-   <small class="photo-credit">Photo: [Simon Speed](https://commons.wikimedia.org/wiki/File:PuttyKnife.JPG), [CC0](https://creativecommons.org/publicdomain/zero/1.0/), via Wikimedia Commons.</small>
+   ![A flat putty knife with a straight steel blade]({{ '/assets/images/how-to-patch-a-hole-in-drywall/small-step01-putty-knife.jpg' | relative_url }}){: loading="lazy"}
+   <small class="photo-credit">Photo: [HomeSpot HQ](http://www.homespothq.com/) ([source](https://commons.wikimedia.org/wiki/File:Putty_Knife_(8559730739).jpg)), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), via Wikimedia Commons; resized.</small>
 
 2. **Let it dry, sand lightly** flush, and recoat if it dipped. {% comment %}SHOT LIST (original photo needed): Sanding sponge flattening a dried spackle spot; raking side light to show the surface is flush.{% endcomment %}
 

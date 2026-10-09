@@ -11,7 +11,7 @@ last_updated: 2026-10-09
 featured: false
 difficulty: "Beginner"
 time: "Pressure check: 10 minutes. Rotation: 45–90 minutes."
-cost: "[VERIFY: typical cost of a tire gauge, jack stands, torque wrench]"
+cost: "Tire pressure gauge about $4.79–$22.99, basic pencil gauge to digital (Meijer, Do it Best; prices checked Oct 9, 2026)"
 applies_to: "Most passenger cars and light trucks. Rotation pattern and lug nut torque depend on your vehicle and tires; check the owner's manual."
 needs_fact_check: true
 image: /assets/images/how-to-check-tire-pressure-and-rotate-tires/hero-tire-pressure-gauge.jpg
@@ -124,7 +124,11 @@ sources:
   5,000-7,000 mi, modified cross, 4WD cross, directional front-to-rear, no temp spare:
   Bridgestone Americas tire rotation page (fetched 2026-10-09).
   Lug nut torque and socket size: NOT verified, owner's manual.
-  Cost: no two independent retailers fetchable for gauge/jack stands/torque wrench (2026-10-09) -> left [VERIFY].
+  Cost (fetched 2026-10-09): tire gauge only. Meijer search https://www.meijer.com/shopping/search.html?text=tire%20pressure%20gauge :
+    Slime 10-50 psi $4.99, Slime brass $12.49, Slime digital $20.49, Slime Elite digital $22.99; Do it Best search
+    https://www.doitbest.com/search/?search_query=tire+pressure+gauge : Tru-Flate 20-120 psi $4.79, Tru-Flate 10-160 psi $7.99,
+    Custom Accessories digital $13.49. Jack stands and torque wrench CUT: only Do it Best listed them (Channellock 3-ton jack stand $52.99,
+    Channellock 3/8 in 20-100 ft-lb torque wrench $99.99); Meijer had neither.
 -->
 
 **Nobody taught me this.** Low tire pressure wears tires out early and hurts braking. Checking it
@@ -160,7 +164,7 @@ takes ten minutes; rotating your tires takes about an hour with the right gear.
 1. **Look up your rotation pattern** in the owner's manual. If your tires are directional (arrow on
    the sidewall) or the front and rear are different sizes, they can't be crossed side to side.
 
-   ![Front wheel of a car with a directional tire; the rotation arrow on the sidewall shows rolling direction]({{ '/assets/images/how-to-check-tire-pressure-and-rotate-tires/p2-step01-directional-tire-arrow.jpg' | relative_url }}){: loading="lazy"}
+   ![Side view of a car's front wheel and tire. On a directional tire, look for an arrow or the word ROTATION on the sidewall]({{ '/assets/images/how-to-check-tire-pressure-and-rotate-tires/p2-step01-directional-tire-arrow.jpg' | relative_url }}){: loading="lazy"}
    <small class="photo-credit">Photo: [PtrQs](https://commons.wikimedia.org/wiki/File:20170312_TyreRotationDirection_VW_RLine_DSCN6983_PtrQs.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), via Wikimedia Commons; resized.</small>
 
 2. **Park on flat, solid pavement.** Parking brake on, wheels chocked.
@@ -174,9 +178,6 @@ takes ten minutes; rotating your tires takes about an hour with the right gear.
    make sure it's stable. If you have four stands, you can lift the whole car; with two, do one side
    at a time (front-to-rear swaps only) or follow your manual's procedure. {% comment %}SHOT LIST (original photo needed): Floor jack at the manufacturer front/rear lift point on one side, two jack stands in place under the pinch welds, opposite side wheels chocked. Wide enough to see both stands.{% endcomment %}
 6. **Remove the lug nuts and wheels** and move them to their new positions per the pattern.
-
-   ![Car in a garage with one wheel removed, showing the bare hub and brake]({{ '/assets/images/how-to-check-tire-pressure-and-rotate-tires/p2-step06-wheel-removed.jpg' | relative_url }}){: loading="lazy"}
-   <small class="photo-credit">Photo: [Shixart1985](https://commons.wikimedia.org/wiki/File:Car_without_a_wheel_in_a_workshop._Portable_light_on_the_ground.jpg), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), via Wikimedia Commons; resized.</small>
 
 7. **Thread the lug nuts on by hand,** then snug them in a star (crisscross) pattern. {% comment %}SHOT LIST (original photo needed): Wheel close-up with numbered overlay (1-5 or 1-4) showing star/crisscross tightening order; graphic overlay added in post.{% endcomment %}
 8. **Lower the car** off the stands.
