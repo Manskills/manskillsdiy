@@ -12,7 +12,7 @@ described. Commissions help cover the cost of running this site and don't
 change the price you pay.
 
 {% if site.affiliates.amazon_enrolled %}As an Amazon Associate I earn from qualifying purchases. {% endif %}We may
-participate in affiliate programs such as Amazon Associates, ClickBank, and ShareASale.
+participate in affiliate programs with retailers and affiliate networks.
 Affiliate links are labeled "paid link" where they appear.
 
 This disclosure is provided in accordance with the U.S. Federal Trade
