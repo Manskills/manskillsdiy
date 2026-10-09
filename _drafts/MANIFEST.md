@@ -7,7 +7,7 @@ That renders as plain text or "Link coming soon", so the build has no broken lin
 listed in the post's `specs:` and `sources:` and in an HTML `<!-- SPEC SOURCES -->` comment in the body.
 "Verified" does NOT mean the post has passed final editorial fact-check.
 
-The existing `how-to-change-oil-1991-toyota-corolla.md` was not touched.
+The existing `how-to-change-oil-1991-toyota-corolla.md` was edited on 2026-10-09 (photos, prices, and Manskills Mechanic's must-fix corrections; see below).
 
 | # | File | Title | Category | Verified specs | Still [VERIFY] |
 |---|------|-------|----------|----------------|----------------|
@@ -31,8 +31,8 @@ wrench direction, and adapter/key check; spring faucet order. Mechanic-supplied 
 primary source keep their `[VERIFY]` tag: the overfill effects, lug re-torque interval, and drywall thickness. `needs_fact_check` was not changed.
 
 ## Applies to every file
-- `cost:` is `[VERIFY: ...]` in all 10 (no prices were invented).
-- No hero `image:` set yet (needs original photos at `/assets/images/<slug>/hero.jpg`).
+- `cost:` now has a two-retailer price range with a "prices checked Oct 9, 2026" note in 6 guides plus the Corolla. Faucet, drywall, tires, and blade are still `[VERIFY]`, as are the jump-pack, drum-auger, TV-mount, and Corolla-filter parts of the other cost lines. No prices were invented.
+- Hero `image:` and `image_alt:` are set in all 11 drafts. Licensed photos are in `assets/images/<slug>/` (see `PHOTO-LOG.md`).
 - `last_updated: 2026-10-09`, `author: manskills` (byline "Manskills DIY"), `featured: false`.
 - Build check: `jekyll build --drafts` succeeds on a scratch copy outside the repo (the repo's Gemfile
   did not resolve locally). All 10 render, no `PLACEHOLDER` hrefs are emitted, and unverified rows
@@ -41,3 +41,22 @@ primary source keep their `[VERIFY]` tag: the overfill effects, lug re-torque in
 ## Possible next topics (from Jordan's list, not written)
 Spare tire change, cabin air filter, basic multimeter use, drill/driver basics, padlock/hasp
 install, seasonal tire storage, LED shop light wiring safety, garage floor epoxy overview.
+
+## Photos, prices and verification pass (2026-10-09, second pass)
+- Backup of `_drafts/` before editing: `/workspace/backup-drafts-1427/` (outside the repo).
+- **Images:** 51 licensed images (PD, CC0, CC BY 2.0–4.0, CC BY-SA 3.0–4.0), about 8.9 MB, in `assets/images/<slug>/`.
+  Each has a hero in front matter, body images with alt text and a visible credit line, and paths via `relative_url`.
+  48 shot-list entries for original photos are in Liquid comment blocks and `PHOTO-LOG.md`.
+- **Newly verified (fetched today):** EPA lead link (drywall); CPSC Anchor It! link (stud/TV); drywall
+  thickness per IRC R302.6 (this corrected the old "garage walls are 5/8 in" claim); blade sharpening frequency (B&S manual example).
+- **Prices:** ranges from Do it Best plus Meijer/Newegg for jump cables, motor oil (check-oil + Corolla), wipers,
+  hair clog tool, mower oil, and stud finder. Source URLs are in each draft's HTML comment. Big-box sites block automated fetches.
+  See `INDEPENDENCE-PLAN.md` (b).
+- **Corolla (Manskills Mechanic must-fix):** jacking points (front crossmember, pinch-weld stands, rear chocks,
+  under-covers), viscosity 10W-30/10W-40 >0°F and 5W-30 <~50°F with API SP wording, capacity with vs. without filter,
+  filter fitment (YZZN1 for all, YZZF1 coupe alternative, confirm by VIN), drain plug 90341-12012 / gasket 90430-12031 /
+  25 ft-lb, 3/4-turn filter install, FAQ interval 7,500 mi/12 mo and 3,750 mi/6 mo, All-Trac note, step 13
+  "pour ~3 qt then top up", garage.wiki and motospecsource dropped. Specs are marked verified citing the Toyota factory
+  repair manual **per the Mechanic's reading**; not independently re-fetched in this pass. `featured: false`,
+  `needs_fact_check: true`.
+- Plan for the remaining items: `INDEPENDENCE-PLAN.md`. Photo licenses: `PHOTO-LOG.md`.
