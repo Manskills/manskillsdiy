@@ -1,0 +1,54 @@
+# Site settings for GitHub Pages (Jekyll)
+title: "Manskills DIY"
+description: >-
+  Step-by-step car maintenance, home repair, and small mechanical fixes for guys
+  who never had anyone show them how. Nobody taught me this, so here it is:
+  plain instructions, the right tools, and no fluff.
+author: "Manskills DIY"
+email: ""
+
+# URL settings
+url: "https://manskills.github.io"
+# NOTE: baseurl becomes "" once the custom domain manskillsdiy.com is set up
+# (and url becomes "https://manskillsdiy.com").
+baseurl: "/manskillsdiy"
+
+# Theme (supported natively by GitHub Pages)
+theme: minima
+
+# Permalinks: /car-maintenance/how-to-change-oil-1991-toyota-corolla/
+permalink: /:categories/:title/
+
+# Plugins (all on the GitHub Pages allow-list)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Pages shown in the minima header nav
+header_pages:
+  - about.md
+  - affiliate-disclosure.md
+
+markdown: kramdown
+show_excerpts: true
+
+# Post categories used on this site:
+#   car-maintenance, home-repair, small-fixes
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
