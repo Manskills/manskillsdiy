@@ -23,7 +23,7 @@
 <div class="product-box">
   {%- if label %}<span class="product-box__label">{{ label }}</span>{% endif -%}
   <div class="product-box__body">
-    {%- if image %}<img class="product-box__img" src="{{ image | relative_url }}" alt="{{ name | escape }}" loading="lazy">{% endif -%}
+    {%- if image %}<img class="product-box__img" src="{{ image | relative_url }}" alt="{{ name | strip_html | escape }}" loading="lazy">{% endif -%}
     <div class="product-box__text">
       <p class="product-box__name">{{ name }}</p>
       {%- if why %}<p class="product-box__why">{{ why | markdownify | remove: '<p>' | remove: '</p>' }}</p>{% endif -%}
@@ -32,7 +32,7 @@
   </div>
   <div class="product-box__cta">
     {%- if url == "" or url contains "PLACEHOLDER" -%}
-      <span class="btn btn--pending">Link coming soon</span><!-- AFFILIATE LINK PENDING: {{ name }} -->
+      <span class="btn btn--pending">Link coming soon</span><!-- AFFILIATE LINK PENDING: {{ name | strip_html }} -->
     {%- else -%}
       <a class="btn" href="{{ url }}" rel="{{ site.affiliates.rel | default: 'sponsored nofollow noopener' }}" target="_blank">Check price at {{ retailer }}</a>
       <span class="paid-label">Paid link</span>
